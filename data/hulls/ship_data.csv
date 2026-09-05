@@ -1,3 +1,8 @@
 name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,c/s,c/f,f/s,f/f,crew/s,crew/f,hints,tags,logistics n/a reason,codex variant id,rarity,breakProb,minPieces,maxPieces,travel drive,number
 Kite,kite,Shuttle,Midline,maneuveringjets,3,900,150,1400,1000,80,25,,140,150,75,45,85,120,OMNI,,150,0.5,0.8,,,2,30,30,15,1,15,9,4000,5,20,180,0.25,2,2,,,,,,,,"base_bp, ind",,,,0.75,2,2,,217
-Vermillion,pk_,Super Kite,Midline,fastmissileracks,6,900,150,1400,,80,30,,140,150,75,45,85,120,OMNI,,150,0.5,0.8,,,4,20,25,15,1,15,9,4000,5,20,180,0.25,2,2,,,,,,,,,,,,0.75,2,2,,216
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BaseSuperKite,pk_basesuperkite,Super Kite,Midline,maneuveringjets,6,1500,200,1800,1000,125,35,,160,170,80,50,90,140,OMNI,,150,0.5,0.8,,,5,20,20,14,1,14,9,9000,5,20,240,0.25,4,4,,,,,,,,"base_bp, ind",,,,0.75,2,2,,216
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Vermillion,pk_vermillion,Super Kite,Midline,fastmissileracks,6,1500,200,1400,,80,35,,170,180,90,60,100,140,OMNI,,150,0.5,0.8,,,5,20,20,14,1,14,9,9000,5,20,240,0.25,4,4,,,,,,,,"base_bp, ind",,,,0.75,2,2,,216
+Gamboge,pk_gamboge,Super Kite,Midline,ammofeed,6,1700,300,1800,,125,35,,160,170,80,50,90,140,OMNI,,150,0.5,0.8,,,5,20,20,14,1,14,9,9000,5,20,240,0.25,4,4,,,,,,,,"base_bp, ind",,,,0.75,2,2,,216
+Cerulean,pk_cerulean,Super Kite,High Tech,highenergyfocus,6,1500,200,1900,,135,35,,160,170,80,50,90,140,OMNI,,150,0.5,0.8,,,5,20,20,14,1,14,9,9000,5,20,240,0.25,4,4,,,,,,,,"base_bp, ind",,,,0.75,2,2,,216
