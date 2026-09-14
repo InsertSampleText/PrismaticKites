@@ -1,0 +1,32 @@
+{
+  "id": "pk_microkitesling",
+  "specClass": "projectile",
+  "projectileSpecId": "pk_MicroKite_sml",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  
+  # "turretSprite": "graphics/weapons/pk_microkitesling_sml_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/pk_microkitesling_sml_turret_glow.png",
+  # "turretGunSprite": "graphics/weapons/pk_microkitesling_sml_turret_barrel.png",
+  # "hardpointSprite": "graphics/weapons/pk_microkitesling_sml_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/pk_microkitesling_sml_hardpoint_glow.png",
+  # "hardpointGunSprite": "graphics/weapons/pk_microkitesling_sml_hardpoint_barrel.png",
+  
+  "turretSprite":"graphics/weapons/pk_microkitesling_sml_turret.png",
+  "hardpointSprite":"graphics/weapons/pk_microkitesling_sml_turret.png",
+	
+	
+  "glowColor": [55,255,255,255],
+  # "visualRecoil": 12,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [2,0],
+  "turretAngleOffsets": [0],
+  "hardpointOffsets": [10,0],
+  "hardpointAngleOffsets": [0],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  # "muzzleFlashSpec": {},
+  "fireSoundTwo": "breach_fire"
+}

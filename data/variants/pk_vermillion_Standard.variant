@@ -1,0 +1,34 @@
+{
+  "variantId": "pk_vermillion_Standard",
+  "hullId": "pk_vermillion",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 6,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "annihilator",
+        "WS 002": "annihilator"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sabot",
+        "WS0002": "sabot"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

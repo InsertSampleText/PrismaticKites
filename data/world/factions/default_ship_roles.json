@@ -1,0 +1,34 @@
+{
+
+	"combatSmallForSmallFleet":{
+		pk_vermillion_Suppression: 8,
+		pk_vermillion_Standard: 8,
+		pk_gamboge_Brawler: 8,
+		pk_citrine_AntiFighter: 8,
+		pk_verdant_Standard: 8,
+		pk_cerulean_Standard: 8,
+		pk_indigo_Blaster: 8,
+		pk_lavender_Beam: 8,
+
+	},
+	"combatSmall":{
+		pk_vermillion_Suppression: 8,
+		pk_vermillion_Standard: 8,
+		pk_gamboge_Brawler: 8,
+		pk_citrine_AntiFighter: 8,
+		pk_verdant_Standard: 8,
+		pk_cerulean_Standard: 8,
+		pk_indigo_Blaster: 8,
+		pk_lavender_Beam: 8,
+	},
+	# carriers
+	"carrierSmall":{
+		pk_citrine_AntiFighter: 8,
+	},
+
+	# phase ships
+	"phaseSmall":{
+		pk_indigo_Blaster: 8,
+	},
+	
+}

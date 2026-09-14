@@ -2,7 +2,7 @@
   "hullName": "Cerulean",
   "hullId": "pk_cerulean",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/Cerulean.png",
+  "spriteName": "graphics/ships/pk_Cerulean.png",
   "style": "HIGH_TECH",
   "height": 66,
   "width": 82,
@@ -13,6 +13,9 @@
   "viewOffset": 0,
   "builtInMods": [
     "targetingunit"
+  ],
+  "builtInWings": [
+    "pk_minikiteline_wing"
   ],
   "weaponSlots": [
     {

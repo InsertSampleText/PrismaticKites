@@ -1,0 +1,119 @@
+{
+  "hullName": "Mini-Kite Line",
+  "hullId": "pk_minikiteline",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/pk_Mini-KiteLine.png",
+  "style": "HIGH_TECH",
+  "height": 40,
+  "width": 40,
+  "center": [20, 20],
+  "collisionRadius": 31,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 27,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 0,
+      "locations": [2, 11.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": -0,
+      "locations": [2, -11.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 180,
+      "locations": [-11, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12, 14],
+      "length": 12,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-12, -14],
+      "length": 12,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-12, 10],
+      "length": 10,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-12, -10],
+      "length": 10,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-15, 6],
+      "length": 12.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-15, -6],
+      "length": 12.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-10.5, 16],
+      "length": 12,
+      "width": 6,
+      "angle": 139,
+      "contrailSize": 128,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-10.5, -16],
+      "length": 12,
+      "width": 6,
+      "angle": -139,
+      "contrailSize": 128,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -15, -5,
+    -12, -16,
+    -5, -20,
+    17, -1,
+    17, 1,
+    -5, 20,
+    -12, 16,
+    -15, 5
+  ]
+}

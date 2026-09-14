@@ -1,8 +1,8 @@
 {
-  "hullName": "Super Kite Base",
-  "hullId": "pk_basesuperkite",
+  "hullName": "Citrine",
+  "hullId": "pk_citrine",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/pk_Kite Base.png",
+  "spriteName": "graphics/ships/pk_Citrine.png",
   "style": "MIDLINE",
   "height": 66,
   "width": 82,
@@ -11,6 +11,12 @@
   "shieldCenter": [0, 0],
   "shieldRadius": 58,
   "viewOffset": 0,
+  "builtInMods": [
+    "insulatedengine"
+  ],
+  "builtInWings": [
+    "pk_minikitetriangle_wing"
+  ],
   "weaponSlots": [
     {
       "id": "WS 001",
@@ -31,13 +37,16 @@
       "locations": [6, -22]
     },
     {
-      "id": "WS 003",
-      "size": "SMALL",
-      "type": "BALLISTIC",
-      "mount": "TURRET",
-      "arc": 200,
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
       "angle": 0,
-      "locations": [-7, 0]
+      "locations": [
+        -12, 0,
+        0, 0
+      ]
     }
   ],
   "engineSlots": [

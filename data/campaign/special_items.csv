@@ -1,0 +1,2 @@
+name,id,tags,tech/manufacturer,rarity,base price,stack size,cargo space,baseRaidDanger,icon,sound id,sound id drop,plugin,plugin params,desc,order
+Kite Crafter Package,pk_KiteCrafter_package,pk_KiteCrafter_bp,Kite Crafter,,25000,1000,1,,graphics/icons/cargo/pk_package_bp.png,ui_chip_pickup,ui_modspec_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,pk_kc_package,A collection blueprints that enable heavy industry to create designs created by the enigmatic Kite Crafter.,200
