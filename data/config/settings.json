@@ -1,23 +1,13 @@
 {
 	"designTypeColors": {
-		"Kite Crafter": [255, 255, 255, 1],
+		"Kite Crafter": [192, 192, 192, 255],
 	},
 	
 	"graphics":{
 		"blueprint_packages":{
 			"pk_KiteCrafter_package": "graphics/icons/cargo/pk_icon.png",
+			"pk_KiteCrafter2_package": "graphics/icons/cargo/pk_icon2.png",
 		},
 	}
 }
 
-{
-	"designTypeColors": {
-		"Kite Crafter": [255, 255, 255, 1],
-	},
-	
-	"graphics":{
-		"blueprint_packages":{
-			"pk_KiteCrafter2_package": "graphics/icons/cargo/pk_icon.png",
-		},
-	}
-}
