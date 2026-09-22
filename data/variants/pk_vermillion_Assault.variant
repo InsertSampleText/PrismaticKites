@@ -1,14 +1,16 @@
 {
-  "variantId": "pk_vermillion_Suppression",
+  "variantId": "pk_vermillion_Assault",
   "hullId": "pk_vermillion",
-  "displayName": "Suppression",
+  "displayName": "Assault",
   "goalVariant": true,
-  "fluxCapacitors": 1,
-  "fluxVents": 6,
-  "quality": 0,
+  "fluxCapacitors": 2,
+  "fluxVents": 2,
+  "quality": 1,
   "permaMods": [],
   "hullMods": [
     "missleracks",
+    "eccm",
+    "armoredweapons",
     "auxiliarythrusters"
   ],
   "weaponGroups": [
@@ -16,10 +18,10 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS 001": "gazer",
-        "WS 002": "gazer",
-        "WS0001": "gazer",
-        "WS0002": "gazer"
+        "WS 001": "gorgon",
+        "WS 002": "gorgon",
+        "WS0001": "gorgon",
+        "WS0002": "gorgon"
       }
     }
   ],

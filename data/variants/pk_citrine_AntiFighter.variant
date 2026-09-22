@@ -9,7 +9,8 @@
   "permaMods": [],
   "hullMods": [
     "hardenedshieldemitter",
-    "extendedshieldemitter"
+    "extendedshieldemitter",
+    "stabilizedshieldemitter",
   ],
   "weaponGroups": [
     {
@@ -17,7 +18,7 @@
       "mode": "LINKED",
       "weapons": {
         "WS 001": "swarmer",
-        "WS 002": "swarmer"
+        "WS 002": "lightdualmg"
       }
     }
   ],

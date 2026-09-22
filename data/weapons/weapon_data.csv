@@ -1,5 +1,5 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
-MicroKite Sling,pk_microkitesling,1,,200,700,,90,,10,5,4,3,1,3,KINETIC,60,60,,,3,0.5,,,,,,500,200,30,150,,,GUIDED_POOR,"midline_bp, pk_KiteCrafter_bp",,Kite Crafter,,Anti-Shield,Fast,Poor,,,,,,,TRUE,
+MicroKite Sling,pk_microkitesling,1,,200,700,,100,,10,5,4,,,,ENERGY,60,,0,1,,,,,,,,600,100,4,250,,,GUIDED_POOR,"midline_bp, pk_KiteCrafter_bp",,Kite Crafter,,Anti-Shield,Fast,Poor,,,,,,,TRUE,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,32 +1,32 @@
 {
-  "variantId": "pk_vermillion_Standard",
+  "variantId": "pk_vermillion_Annihilator",
   "hullId": "pk_vermillion",
-  "displayName": "Standard",
+  "displayName": "Annihilator",
   "goalVariant": true,
-  "fluxCapacitors": 1,
-  "fluxVents": 6,
+  "fluxCapacitors": 0,
+  "fluxVents": 1,
   "quality": 0,
   "permaMods": [],
   "hullMods": [
     "missleracks",
-    "auxiliarythrusters"
+    "missile_autoloader",
+    "safetyoverrides"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS 001": "annihilator",
-        "WS 002": "annihilator"
+        "WS 001": "reaper",
+        "WS 002": "reaper",
+        "WS0001": "reaper",
+        "WS0002": "reaper"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0001": "sabot",
-        "WS0002": "sabot"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],

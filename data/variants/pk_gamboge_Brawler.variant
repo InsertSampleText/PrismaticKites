@@ -3,29 +3,28 @@
   "hullId": "pk_gamboge",
   "displayName": "Brawler",
   "goalVariant": true,
-  "fluxCapacitors": 10,
-  "fluxVents": 10,
+  "fluxCapacitors": 7,
+  "fluxVents": 8,
   "quality": 0,
   "permaMods": [],
   "hullMods": [
-    "shield_shunt"
+    "hardened_subsystems",
+    "auxiliarythrusters",
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS 001": "lightmortar",
-        "WS 002": "lightmortar"
+        "WS 001": "lightmg",
+        "WS 002": "lightmg",
+        "WS0001": "chaingun"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0001": "lightac",
-        "WS0002": "lightac"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],

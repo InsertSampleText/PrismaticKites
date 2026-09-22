@@ -5,7 +5,19 @@
 	
 	"graphics":{
 		"blueprint_packages":{
-			"pk_kc_package": "graphics/icons/cargo/pk_package_bp.png",
+			"pk_KiteCrafter_package": "graphics/icons/cargo/pk_icon.png",
+		},
+	}
+}
+
+{
+	"designTypeColors": {
+		"Kite Crafter": [255, 255, 255, 1],
+	},
+	
+	"graphics":{
+		"blueprint_packages":{
+			"pk_KiteCrafter2_package": "graphics/icons/cargo/pk_icon.png",
 		},
 	}
 }

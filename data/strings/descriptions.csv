@@ -1,31 +1,43 @@
 id,type,text1,text2,text3,text4,text5,notes
 pk_vermillion,SHIP,"A ""Super Kite"" Built by the enigmatic genius known as the Kite Crafter. While these ship designs may hold forms close to the ubiquitous Kite, many debate on whether it still is a Kite on account for the overhauled specs and significantdesign changes.
 
-The Vermillion is the Kite Crafter's way of making the Kite into a missile fighter, combining parts and design aspects of the Vigilance and--as rumors say--parts of the Sentry wardrone. In any case, the Vermillion is outfitted with nothing but missile hardpoints and a system to capitalize on it.",,,,,
-pk_cerulean,SHIP,"A ""Super Kite"" Built by the enigmatic genius known as the Kite Crafter. While these ship designs may hold forms close to the ubiquitous Kite, many debate on whether it still is a Kite on account for the overhauled specs and significant design changes.
-
-A High-Tech design, the Cerulean features an energy medium port and a built-in drone wing of Line variant Mini Kites. With a built-in Integrated Targeting Unit, the Cerulean can either suppres from a distance with its drones or land snipe enemies crippled by emp damage.",,,,,
+The Vermillion is the Kite Crafter's way of making the Kite into a missile fighter. The design is outfitted with nothing but missile hardpoints and a system to capitalize on it, which brings its longevity into question but its devastating potential unquestionable.",,,,,
+,,,,,,,
 pk_gamboge,SHIP,"A ""Super Kite"" Built by the enigmatic genius known as the Kite Crafter. While these ship designs may hold forms close to the ubiquitous Kite, many debate on whether it still is a Kite on account for the overhauled specs and significant design changes.
 
-The Gamboge is the Kite Crafter's way of making the Kite a proper gunship. Using design elements from the Lasher and Brawler, the Gamboge carries enough gun ports to utilize its Accelerated Ammo Feeder system. The added armor helps the Gamboge trade salvos against other ships its size, but did sacrifice some engine power.",,,,,
-pk_indigo,SHIP,"A ""Super Kite"" Built by the enigmatic genius known as the Kite Crafter. While these ship designs may hold forms close to the ubiquitous Kite, many debate on whether it still is a Kite on account for the overhauled specs and significant design changes.
+The Gamboge is agile and armed, the Kite fashioned into a proper gunship. Taking inspiration from the Sindrian warfleet of all things, the Kite Crafter fashioned the the design with a Safety Override and Accelerated Ammo Feeder to allow the Gamboge to chew through ships while staying very mobile.",,,,,
+pk_citrine,SHIP,"A ""Super Kite"" Built by the enigmatic genius known as the Kite Crafter. While these ship designs may hold forms close to the ubiquitous Kite, many debate on whether it still is a Kite on account for the overhauled specs and significant design changes.
 
-A High-Tech ship design, the Indigo is the Kite Crafter's attempt at applying phase technology to the Kite. An incredible feat of engineering that leaves engineers dismayed that the Kite Crafter only wants to work on Kites and Kite related technology. With it's Phase Cloak and Phase Skimmer, the Indigo weaves through the battefield, harrassing ships and striking from unseen angles. The design has had to sacrifice some hull integrity and armor in order to accomodate the increased flux capabilities for the phase coils.",,,,,
+The Citrine is the Kite Crafter's way of making the Kite into a carrier ship. Hosting built-in fighter Mini-Kite Triangles, the Citrine helps deter enemy fighters.",,,,,
 pk_verdant,SHIP,"A ""Super Kite"" Built by the enigmatic genius known as the Kite Crafter. While these ship designs may hold forms close to the ubiquitous Kite, many debate on whether it still is a Kite on account for the overhauled specs and significant design changes.
 
 The Verdant is the Kite Crafter's way of making a more defensive escort ship. Lined with a shocking amount of flare launchers and an Integrated PD AI, the Verdant serves as a decent catch against missiles.",,,,,
-pk_citrine,SHIP,"A ""Super Kite"" Built by the enigmatic genius known as the Kite Crafter. While these ship designs may hold forms close to the ubiquitous Kite, many debate on whether it still is a Kite on account for the overhauled specs and significant design changes.
+pk_cerulean,SHIP,"A ""Super Kite"" Built by the enigmatic genius known as the Kite Crafter. While these ship designs may hold forms close to the ubiquitous Kite, many debate on whether it still is a Kite on account for the overhauled specs and significant design changes.
 
-The Citrine is the Kite Crafter's way of making the Kite into a carrier ship. In order to host its built-in fighter Mini-Kite Triangles, the design does have a lowered Ordinance Point total compared to its kin.",,,,,
+A High-Tech design, the Cerulean features an energy medium port and a built-in drone wing of Line variant Mini Kites. With a built-in Integrated Targeting Unit, the Cerulean can either suppres from a distance with its drones or land snipe enemies crippled by emp damage.",,,,,
+pk_indigo,SHIP,"A ""Super Kite"" Built by the enigmatic genius known as the Kite Crafter. While these ship designs may hold forms close to the ubiquitous Kite, many debate on whether it still is a Kite on account for the overhauled specs and significant design changes.
+
+A High-Tech ship design, the Indigo is the Kite Crafter's attempt at applying phase technology to the Kite. With it's Phase Cloak and Phase Skimmer, the Indigo weaves through the battefield, harrassing ships and striking from unseen angles.",,,,,
 pk_lavender,SHIP,"A ""Super Kite"" Built by the enigmatic genius known as the Kite Crafter. While these ship designs may hold forms close to the ubiquitous Kite, many debate on whether it still is a Kite on account for the overhauled specs and significant design changes.
 
 A High-Tech design, the Lavender has a built in Temporal Shell. Combined with a built-in High Scatter Amplifier, the Lavender is more suited as a laser focused ship.",,,,,
 ,,,,,,,
+pk_minikitesquare,SHIP,"A drone built into the shape of a Kite. Or perhaps a Kite compressed down into a drone. Either way, the Kite Crafter's obsession with Kites has led to a line of drones atply named ""Mini Kites,"" that serve a variety of roles as drone wings. Unfortunately, as drones, they aren't able to fly as far from their carrier like most standard fighters.
+
+The Square variant is a relatively more easier to replace Mini-Kite. With less armor and speed than its kin, the bomber makes up for it with its sheer numbers and pair of Annihilator Rocket Pods.",,,,,
 pk_minikitetriangle,SHIP,"A drone built into the shape of a Kite. Or perhaps a Kite compressed down into a drone. Either way, the Kite Crafter's obsession with Kites has led to a line of drones atply named ""Mini Kites,"" that serve a variety of roles as drone wings. Unfortunately, as drones, they aren't able to fly as far from their carrier like most standard fighters.
 
-The Triangle variant is the more standard type of fighter. Tough, agile, and packing anti-fighter armaments, this Mini Kite is more akin to a Broadsword in the shape of a Kite.",,,,,
+The Triangle variant is the more standard type of fighter. Tough, agile, and packing anti-fighter armaments, this Mini-Kite is more akin to a Broadsword in the shape of a Kite.",,,,,
 pk_minikiteline,SHIP,"A drone built into the shape of a Kite. Or perhaps a Kite compressed down into a drone. Either way, the Kite Crafter's obsession with Kites has led to a line of drones atply named ""Mini Kites,"" that serve a variety of roles as drone wings. Unfortunately, as drones, they aren't able to fly as far from their carrier like most standard fighters.
 
 The Line variant is a more of a supporting type of fighter. Equipped with an EMP generator, it's goal is to cripple opposing ships to set up for more devastating blows.",,,,,
+pk_minikitedot,SHIP,"A unique Mini-Kite as it is not a drone but rather a more standard fighter that only houses one crew member. This Mini-Kite was given the most similarities to the original Kite, being able to fly as far away from its carrier and act independantly. ",,,,,
 ,,,,,,,
-pk_microkitesling,WEAPON,"Another strange creation of the Kite Crafter, the MicroKite Sling utilizes a nanoforge that creates drones in the shape of a Kite and launches them through a rail system. The projectiles may not be fast, but the shoddy guidance and tough mass of the projectile make this a functional, if strange, weapon.",Pressure,,,,
+pk_megakite,SHIP,"A distinct variation of the ""Super Kite"" line developed by the Kite Crafter, the Mega Kite is an upscaled design of the Kite, turning it into a Destroyer class ship. Reportedly, this has caused conflicting feelings within the Kite Crafter, according to his closest students, as he debates on whether or not this upscaling keeps the ship a ""Kite"" design. As if his other works weren't radical enough, but increasing the size tested whatever boundries he imagined.",,,,,
+pk_megakitefreighter,SHIP,"A distinct variation of the ""Super Kite"" line developed by the Kite Crafter, the Mega Kite is an upscaled design of the Kite, turning it into a Destroyer class ship. This variant of the Mega Kite serves as a freighter vessel. By cutting down on ordinance bays, the ship can accommodate a decent amount of cargo and fuel.",,,,,
+,,,,,,,
+pk_hazel,SHIP,"A ""Super Kite"" Built by the enigmatic genius known as the Kite Crafter. While these ship designs may hold forms close to the ubiquitous Kite, many debate on whether it still is a Kite on account for the overhauled specs and significant design changes.
+
+The Hazel doesn't have much changed in regards to its layout compared to its progenitor, sporting its three basic ports. However, it does have built-in ground support capabilities.",,,,,
+,,,,,,,
+pk_microkitesling,WEAPON,"Another strange creation of the Kite Crafter, the MicroKite Sling utilizes a nanoforge that creates miniature drones in the shape of a Kite and launches them through a rail system. The projectile's shoddy guidance, relatively tough shell, and loaded explosives make this a functional, if strange, weapon.",Pressure,,,,

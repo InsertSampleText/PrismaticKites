@@ -18,8 +18,9 @@
 	
   "glowColor": [55,255,255,255],
   # "visualRecoil": 12,
+  # RENDER_BARREL_BELOW
   "renderHints": [
-    RENDER_BARREL_BELOW
+    RENDER_LOADED_MISSILES
   ],
   "turretOffsets": [2,0],
   "turretAngleOffsets": [0],

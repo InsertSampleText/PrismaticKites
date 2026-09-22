@@ -11,6 +11,9 @@
   "shieldCenter": [0, 0],
   "shieldRadius": 58,
   "viewOffset": 0,
+  "builtInMods": [
+    "adaptive_coils"
+  ],
   "weaponSlots": [
     {
       "id": "WS 001",

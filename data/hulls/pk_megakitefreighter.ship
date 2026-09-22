@@ -1,0 +1,102 @@
+{
+  "hullName": "Mega Kite (Freighter)",
+  "hullId": "pk_megakitefreighter",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/pk_MegaKiteFreighter.png",
+  "style": "MIDLINE",
+  "height": 103,
+  "width": 128,
+  "center": [64, 49],
+  "collisionRadius": 94,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 83.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 0,
+      "locations": [-17, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-30, 58],
+      "length": 30,
+      "width": 10,
+      "angle": 150,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-30, -58],
+      "length": 30,
+      "width": 10,
+      "angle": 210,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-38, 43.5],
+      "length": 32.5,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-38, -43.5],
+      "length": 32.5,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-40.5, 32],
+      "length": 17.002928,
+      "width": 6.752903,
+      "angle": 168.5,
+      "contrailSize": 6.752903,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-40.5, -32],
+      "length": 17.002928,
+      "width": 6.752903,
+      "angle": -168.5,
+      "contrailSize": 6.752903,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-47, 20],
+      "length": 41,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-47, -20],
+      "length": 41,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -47.5, -21.5,
+    -26.5, -63,
+    13, -35,
+    37, -20,
+    52.5, 0,
+    37, 20,
+    13, 35,
+    -26.5, 63,
+    -47.5, 21.5
+  ]
+}

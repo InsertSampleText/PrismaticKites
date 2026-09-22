@@ -1,21 +1,22 @@
 {
-  "variantId": "pk_cerulean_Standard",
+  "variantId": "pk_cerulean_Blaster",
   "hullId": "pk_cerulean",
-  "displayName": "Standard",
+  "displayName": "Blaster",
   "goalVariant": true,
   "fluxCapacitors": 10,
   "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "stabilizedshieldemitter"
+    "fluxcoil",
+    "fluxdistributor"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS 003": "ionbeam"
+        "WS 003": "heavyblaster"
       }
     }
   ],
