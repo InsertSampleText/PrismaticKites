@@ -1,15 +1,16 @@
 {
-  "id": "pk_microkitesling",
+  "id": "pk_microkiterocketsling",
   "specClass": "projectile",
-  "projectileSpecId": "pk_MicroKite_sml",
-  "type": "BALLISTIC",
+  "projectileSpecId": "pk_MicroKiteRocket_sml",
+  "type": "MISSILE",
   "size": "SMALL",
   
+
   "turretGlowSprite": "graphics/weapons/pk_microkitesling_sml_turret_glow.png",
   "hardpointGlowSprite": "graphics/weapons/pk_microkitesling_sml_turret_glow.png",
   
-  "turretSprite":"graphics/weapons/pk_microkitesling_sml_turret.png",
-  "hardpointSprite":"graphics/weapons/pk_microkitesling_hardpoint.png",
+  "turretSprite":"graphics/weapons/pk_microkiterocketsling.png",
+  "hardpointSprite":"graphics/weapons/pk_microkiterocketsling_hardpoint.png",
 	
 	
   "glowColor": [55,255,255,255],

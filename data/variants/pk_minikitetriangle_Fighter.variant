@@ -1,7 +1,7 @@
 {
   "variantId": "pk_minikitetriangle_Fighter",
   "hullId": "pk_minikitetriangle",
-  "displayName": "Mini Kite Fighter",
+  "displayName": "Fighter",
   "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 0,
