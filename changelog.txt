@@ -1,0 +1,11 @@
+v0.1.1
+-Updated paths and text details 
+-Added a new weapon
+-Rebalanced some things
+
+---
+
+v0.1.0
+-First iteration of the mod
+-10 new Kite forms (8 frigates, 2 destroyers)
+-2 weapons
