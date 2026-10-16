@@ -2,7 +2,6 @@ id,type,text1,text2,text3,text4,text5,notes
 pk_vermillion,SHIP,"A ""Super Kite"" Built by the enigmatic genius known as the Kite Crafter. While these ship designs may hold forms close to the ubiquitous Kite, many debate on whether it still is a Kite on account for the overhauled specs and significantdesign changes.
 
 The Vermillion is the Kite Crafter's way of making the Kite into a missile fighter. The design is outfitted with nothing but missile hardpoints and a system to capitalize on it, which brings its longevity into question but its devastating potential unquestionable.",,,,,
-,,,,,,,
 pk_gamboge,SHIP,"A ""Super Kite"" Built by the enigmatic genius known as the Kite Crafter. While these ship designs may hold forms close to the ubiquitous Kite, many debate on whether it still is a Kite on account for the overhauled specs and significant design changes.
 
 The Gamboge is agile and armed, the Kite fashioned into a proper gunship. Taking inspiration from the Sindrian warfleet of all things, the Kite Crafter fashioned the the design with a Safety Override and Accelerated Ammo Feeder to allow the Gamboge to chew through ships while staying very mobile.",,,,,
@@ -32,14 +31,26 @@ pk_minikiteline,SHIP,"A drone built into the shape of a Kite. Or perhaps a Kite 
 
 The Line variant is a more of a supporting type of fighter. Equipped with an EMP generator, it's goal is to cripple opposing ships to set up for more devastating blows.",,,,,
 pk_minikitedot,SHIP,"A unique Mini-Kite as it is not a drone but rather a more standard fighter that only houses one crew member. This Mini-Kite was given the most similarities to the original Kite, being able to fly as far away from its carrier and act independantly. ",,,,,
+pk_minikiteblack,SHIP,"A unique Mini-Kite specially built into the Ebony Uber Kite. Each drone is equipped with a Burst PD Laser, and in their numbers, can serve as a support screen or relatively damaging swarm. Their real specialty lies in the termination sequence built-in that allows them to become a missile that deals great damage to enemy ships.",,,,,
 ,,,,,,,
-pk_megakite,SHIP,"A distinct variation of the ""Super Kite"" line developed by the Kite Crafter, the Mega Kite is an upscaled design of the Kite, turning it into a Destroyer class ship. Reportedly, this has caused conflicting feelings within the Kite Crafter, according to his closest students, as he debates on whether or not this upscaling keeps the ship a ""Kite"" design. As if his other works weren't radical enough, but increasing the size tested whatever boundries he imagined.",,,,,
-pk_megakitefreighter,SHIP,"A distinct variation of the ""Super Kite"" line developed by the Kite Crafter, the Mega Kite is an upscaled design of the Kite, turning it into a Destroyer class ship. This variant of the Mega Kite serves as a freighter vessel. By cutting down on ordinance bays, the ship can accommodate a decent amount of cargo and fuel.",,,,,
+pk_megakite,SHIP,"A ""Mega Kite,"" built by an eccentric mind belonging to the Kite Crafter. The hull of the ship is essentially a Kite upscaled into a Destroyer class ship.",,,,,
+pk_megakitefreighter,SHIP,"A ""Mega Kite,"" built by an eccentric mind belonging to the Kite Crafter. The hull of the ship is essentially a Kite upscaled into a Destroyer class ship.",,,,,
+,,,,,,,
 ,,,,,,,
 pk_hazel,SHIP,"A ""Super Kite"" Built by the enigmatic genius known as the Kite Crafter. While these ship designs may hold forms close to the ubiquitous Kite, many debate on whether it still is a Kite on account for the overhauled specs and significant design changes.
 
-The Hazel doesn't have much changed in regards to its layout compared to its progenitor, sporting its three basic ports. However, it does have built-in ground support capabilities.",,,,,
+The Hazel doesn't have much changed in regards to its layout compared to its progenitor, sporting its three basic ports. However, it does have solid built-in ground support capabilities.",,,,,
 ,,,,,,,
 pk_microkitesling,WEAPON,"Another strange creation of the Kite Crafter, the MicroKite Sling utilizes a nanoforge that creates miniature drones in the shape of a Kite and launches them through a rail system. The Micro Kite then tracks its target, attempting to ram into it. A strange but functional weapon.",Anti-Shield,,,,
 pk_microkiterocketsling,WEAPON,"Another strange creation of the Kite Crafter, the MicroKite Sling utilizes a nanoforge that creates miniature drones in the shape of a Kite and launches them through a rail system. This missile variation has explosives loaded into the drone, limiting how many can be shot at a time and removing the tracking system. However, it now has the ability to fly fast and far with some armor breaking capabilities.",Anti-Armor,,,,
 pk_kitebeam,WEAPON,"Another strange creation of the Kite Crafter, the Kite Beam is essentially a reworked Tactical Laser with the barrel shaped like a Kite fuselage. The laser has been reworked to do more damage alongside EMP effects at a shorter range, a burst rate, and a slightly higher energy cost.",General,,,,
+,,,,,,,
+pk_ebony,SHIP,"A famed ""Uber Kite,"" built by the mad scientist known as the Kite Crafter. These ships are the Kite design taken beyond the extreme, sporting high specs and specialized capabilities. These ships are seen as the upgrade to the line of Super Kites.
+
+The Ebony is a curious ship on its own, owning no actual armaments and only a single fighter bay. This fighter bay, however, is specially built to house the unique Terminator Kites. These drones spawn very quickly are quite numerous, which pairs very well with the retrofitted Terminator Sequence ship system built into the Ebony. This allows the Ebony to throw drone and drone in massive damages against enemy ships.",,,,,
+pk_alabaster,SHIP,"A famed ""Uber Kite,"" built by the mad scientist known as the Kite Crafter. These ships are the Kite design taken beyond the extreme, sporting high specs and specialized capabilities. These ships are seen as the upgrade to the line of Super Kites.
+
+The Alabaster's universal ports allow for varied weaponry, but it's main focus is the built in ""Piercing Light"" ship system that lets it zoom through the battlefield, punching through ships unable to withstand its charge.",,,,,
+,,,,,,,
+pk_minikite_strike,SHIP_SYSTEM,"Supercharges a Mini-Kite with a brief energy transfer. The drone tracks a nearby target like a missile, dealing massive damage on impact.",Offensive,,,,
+pk_piercinglight,SHIP_SYSTEM,"A high level Damper Field and enhanced Plasma Burn system working in tandem allow the ship to rocket forth at high speeds, crashing into enemies while being able to shrug off the worst damages.",Offensive,,,,

@@ -1,0 +1,110 @@
+{
+  "hullName": "Mini-Kite Black",
+  "hullId": "pk_minikiteblack",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/wings/pk_Mini-KiteBlack.png",
+  "style": "MIDLINE",
+  "height": 40,
+  "width": 40,
+  "center": [20, 20],
+  "collisionRadius": 31,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 27,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 180,
+      "arc": 30,
+      "id": "WS0003",
+      "locations": [-11, 0],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 0,
+      "arc": 45,
+      "id": "WS0004",
+      "locations": [-5, 0],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    }
+  ],
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 12,
+      "location": [-12, 14],
+      "style": "HIGH_TECH",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 12,
+      "location": [-12, -14],
+      "style": "HIGH_TECH",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 128,
+      "length": 10,
+      "location": [-12, 10],
+      "style": "HIGH_TECH",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 128,
+      "length": 10,
+      "location": [-12, -10],
+      "style": "HIGH_TECH",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 12.5,
+      "location": [-15, 6],
+      "style": "HIGH_TECH",
+      "width": 9
+    },
+    {
+      "angle": -180,
+      "contrailSize": 9,
+      "length": 12.5,
+      "location": [-15, -6],
+      "style": "HIGH_TECH",
+      "width": 9
+    },
+    {
+      "angle": 139,
+      "contrailSize": 128,
+      "length": 12,
+      "location": [-10.5, 16],
+      "style": "HIGH_TECH",
+      "width": 6
+    },
+    {
+      "angle": -139,
+      "contrailSize": 128,
+      "length": 12,
+      "location": [-10.5, -16],
+      "style": "HIGH_TECH",
+      "width": 6
+    }
+  ],
+  "bounds": [
+    -15, -5,
+    -12, -16,
+    -5, -20,
+    17, -1,
+    17, 1,
+    -5, 20,
+    -12, 16,
+    -15, 5
+  ]
+}

@@ -1,0 +1,51 @@
+{
+	"id":"pk_piercinglight",
+	"type":"ENGINE_MOD",
+	"aiType":"BURN_DRIVE_TOGGLE",
+	
+	"statsScript":"data.shipsystems.scripts.pk_PiercingLightStats",
+
+	"engineGlowColor":[255,255,255,125],
+	"engineGlowContrailColor":[237,234,224,125],
+	"engineGlowLengthMult":4,
+	"engineGlowWidthMult":3,
+	"engineGlowGlowMult":3,
+	
+	"shieldRingColor":[255,255,255,255],
+	"shieldInnerColor":[237,234,224,255],
+	"shieldThicknessMult":1,
+	"shieldFluctuationMult":0,
+	
+	"jitterUnderColor":[237,234,224,150],
+	"jitterUnderCopies":25,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":7,
+	"jitterUnderRangeRadiusFraction":0,
+	
+	"jitterColor":[237,234,224,150],
+	"jitterCopies":2,
+	"jitterMinRange":0,
+	"jitterRange":5,
+	"jitterRangeRadiusFraction":0,
+	
+	"flameoutOnImpactChance":0.0,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	"alwaysAccelerate":true,
+
+	"useSound":"system_plasma_burn",
+	"loopSound":"system_plasma_burn_loop",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":900,
+		"burstMovementPotential":1600,
+		"averageSpeedIncrease":900,
+	}
+	
+}
+
+
+
+

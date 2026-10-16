@@ -6,7 +6,12 @@
 	"graphics":{
 		"blueprint_packages":{
 			"pk_KiteCrafter_package": "graphics/icons/cargo/pk_icon.png",
-			"pk_KiteCrafter2_package": "graphics/icons/cargo/pk_icon2.png",
+			"pk_KiteCrafter2_package": "graphics/icons/cargo/pk_icon.png",
+			"pk_KiteCrafter3_package": "graphics/icons/cargo/pk_icon.png",
+			
+			"pk_KiteCrafterWeapons_package": "graphics/icons/cargo/pk_icon2.png",
+			"pk_KiteCrafterDrone_package": "graphics/icons/cargo/pk_icon2.png",
+			
 		},
 	}
 }

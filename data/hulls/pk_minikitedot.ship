@@ -2,7 +2,7 @@
   "hullName": "Mini-Kite Dot",
   "hullId": "pk_minikitedot",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/ships/pk_Mini-KiteDot.png",
+  "spriteName": "graphics/ships/wings/pk_Mini-KiteDot.png",
   "style": "MIDLINE",
   "height": 40,
   "width": 40,
@@ -13,106 +13,106 @@
   "viewOffset": 0,
   "weaponSlots": [
     {
+      "angle": 0,
+      "arc": 30,
       "id": "WS0001",
-      "size": "SMALL",
-      "type": "MISSILE",
+      "locations": [2, 11.5],
       "mount": "HIDDEN",
-      "arc": 30,
-      "angle": 0,
-      "locations": [2, 11.5]
+      "size": "SMALL",
+      "type": "MISSILE"
     },
     {
-      "id": "WS0002",
-      "size": "SMALL",
-      "type": "MISSILE",
-      "mount": "HIDDEN",
-      "arc": 30,
       "angle": -0,
-      "locations": [2, -11.5]
-    },
-    {
-      "id": "WS0003",
-      "size": "SMALL",
-      "type": "SYSTEM",
-      "mount": "HIDDEN",
       "arc": 30,
-      "angle": 180,
-      "locations": [-11, 0]
+      "id": "WS0002",
+      "locations": [2, -11.5],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
     },
     {
-      "id": "WS0004",
-      "size": "SMALL",
-      "type": "BALLISTIC",
+      "angle": 180,
+      "arc": 30,
+      "id": "WS0003",
+      "locations": [-11, 0],
       "mount": "HIDDEN",
-      "arc": 45,
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
       "angle": 0,
-      "locations": [-5, 0]
+      "arc": 45,
+      "id": "WS0004",
+      "locations": [-5, 0],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BALLISTIC"
     }
   ],
   "engineSlots": [
     {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 12,
       "location": [-12, 14],
-      "length": 12,
-      "width": 6,
-      "angle": 180,
-      "contrailSize": 6,
-      "style": "HIGH_TECH"
+      "style": "HIGH_TECH",
+      "width": 6
     },
     {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 12,
       "location": [-12, -14],
-      "length": 12,
-      "width": 6,
-      "angle": -180,
-      "contrailSize": 6,
-      "style": "HIGH_TECH"
+      "style": "HIGH_TECH",
+      "width": 6
     },
     {
+      "angle": 180,
+      "contrailSize": 128,
+      "length": 10,
       "location": [-12, 10],
-      "length": 10,
-      "width": 6,
-      "angle": 180,
-      "contrailSize": 128,
-      "style": "HIGH_TECH"
+      "style": "HIGH_TECH",
+      "width": 6
     },
     {
+      "angle": -180,
+      "contrailSize": 128,
+      "length": 10,
       "location": [-12, -10],
-      "length": 10,
-      "width": 6,
-      "angle": -180,
-      "contrailSize": 128,
-      "style": "HIGH_TECH"
+      "style": "HIGH_TECH",
+      "width": 6
     },
     {
-      "location": [-15, 6],
-      "length": 12.5,
-      "width": 9,
       "angle": 180,
       "contrailSize": 9,
-      "style": "HIGH_TECH"
+      "length": 12.5,
+      "location": [-15, 6],
+      "style": "HIGH_TECH",
+      "width": 9
     },
     {
-      "location": [-15, -6],
-      "length": 12.5,
-      "width": 9,
       "angle": -180,
       "contrailSize": 9,
-      "style": "HIGH_TECH"
+      "length": 12.5,
+      "location": [-15, -6],
+      "style": "HIGH_TECH",
+      "width": 9
     },
     {
-      "location": [-10.5, 16],
-      "length": 12,
-      "width": 6,
       "angle": 139,
       "contrailSize": 128,
-      "style": "HIGH_TECH"
+      "length": 12,
+      "location": [-10.5, 16],
+      "style": "HIGH_TECH",
+      "width": 6
     },
     {
-      "location": [-10.5, -16],
-      "length": 12,
-      "width": 6,
       "angle": -139,
       "contrailSize": 128,
-      "style": "HIGH_TECH"
+      "length": 12,
+      "location": [-10.5, -16],
+      "style": "HIGH_TECH",
+      "width": 6
     }
   ],
   "bounds": [

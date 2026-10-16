@@ -1,0 +1,118 @@
+{
+  "hullName": "Alabaster",
+  "hullId": "pk_alabaster",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/uberkites/pk_Alabaster.png",
+  "style": "HIGH_TECH",
+  "height": 66,
+  "width": 82,
+  "center": [41, 28],
+  "collisionRadius": 70.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 58,
+  "viewOffset": 0,
+  "builtInMods": [
+    "pk_guidinglight"
+  ],
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 20,
+      "id": "WS 001",
+      "locations": [6, 22],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 20,
+      "id": "WS 002",
+      "locations": [6, -22],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 200,
+      "id": "WS 003",
+      "locations": [-7, 0],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    }
+  ],
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 50,
+      "length": 30,
+      "location": [-21, 28],
+      "style": "HIGH_TECH",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 68,
+      "length": 40,
+      "location": [-27, 13],
+      "style": "HIGH_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 68,
+      "length": 40,
+      "location": [-27, -13],
+      "style": "HIGH_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 50,
+      "length": 30,
+      "location": [-21, -28],
+      "style": "HIGH_TECH",
+      "width": 8
+    },
+    {
+      "angle": 210,
+      "contrailSize": 128,
+      "length": 24,
+      "location": [-16, -36],
+      "style": "HIGH_TECH",
+      "width": 6
+    },
+    {
+      "angle": 150,
+      "contrailSize": 128,
+      "length": 24,
+      "location": [-16, 36],
+      "style": "HIGH_TECH",
+      "width": 6
+    },
+    {
+      "angle": 185,
+      "contrailSize": 30,
+      "length": 20,
+      "location": [-22, -20],
+      "style": "HIGH_TECH",
+      "width": 6
+    },
+    {
+      "angle": 175,
+      "contrailSize": 30,
+      "length": 20,
+      "location": [-22, 21],
+      "style": "HIGH_TECH",
+      "width": 6
+    }
+  ],
+  "bounds": [
+    37, 0,
+    -12, 40,
+    -26, 0,
+    -11, -39
+  ]
+}

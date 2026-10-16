@@ -2,7 +2,7 @@
   "hullName": "Mega Kite (Freighter)",
   "hullId": "pk_megakitefreighter",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/ships/pk_MegaKiteFreighter.png",
+  "spriteName": "graphics/ships/megakites/pk_MegaKiteFreighter.png",
   "style": "MIDLINE",
   "height": 103,
   "width": 128,
@@ -13,79 +13,79 @@
   "viewOffset": 0,
   "weaponSlots": [
     {
-      "id": "WS0001",
-      "size": "MEDIUM",
-      "type": "BALLISTIC",
-      "mount": "TURRET",
-      "arc": 200,
       "angle": 0,
-      "locations": [-17, 0]
+      "arc": 200,
+      "id": "WS0001",
+      "locations": [-17, 0],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
     }
   ],
   "engineSlots": [
     {
-      "location": [-30, 58],
-      "length": 30,
-      "width": 10,
       "angle": 150,
       "contrailSize": 128,
-      "style": "MIDLINE"
+      "length": 30,
+      "location": [-30, 58],
+      "style": "MIDLINE",
+      "width": 10
     },
     {
-      "location": [-30, -58],
-      "length": 30,
-      "width": 10,
       "angle": 210,
       "contrailSize": 128,
-      "style": "MIDLINE"
+      "length": 30,
+      "location": [-30, -58],
+      "style": "MIDLINE",
+      "width": 10
     },
     {
-      "location": [-38, 43.5],
-      "length": 32.5,
-      "width": 11,
       "angle": 180,
       "contrailSize": 11,
-      "style": "MIDLINE"
+      "length": 32.5,
+      "location": [-38, 43.5],
+      "style": "MIDLINE",
+      "width": 11
     },
     {
-      "location": [-38, -43.5],
-      "length": 32.5,
-      "width": 11,
       "angle": -180,
       "contrailSize": 11,
-      "style": "MIDLINE"
+      "length": 32.5,
+      "location": [-38, -43.5],
+      "style": "MIDLINE",
+      "width": 11
     },
     {
-      "location": [-40.5, 32],
-      "length": 17.002928,
-      "width": 6.752903,
       "angle": 168.5,
       "contrailSize": 6.752903,
-      "style": "MIDLINE"
+      "length": 17.002928,
+      "location": [-40.5, 32],
+      "style": "MIDLINE",
+      "width": 6.752903
     },
     {
-      "location": [-40.5, -32],
-      "length": 17.002928,
-      "width": 6.752903,
       "angle": -168.5,
       "contrailSize": 6.752903,
-      "style": "MIDLINE"
+      "length": 17.002928,
+      "location": [-40.5, -32],
+      "style": "MIDLINE",
+      "width": 6.752903
     },
     {
-      "location": [-47, 20],
-      "length": 41,
-      "width": 18,
       "angle": 180,
       "contrailSize": 18,
-      "style": "MIDLINE"
+      "length": 41,
+      "location": [-47, 20],
+      "style": "MIDLINE",
+      "width": 18
     },
     {
-      "location": [-47, -20],
-      "length": 41,
-      "width": 18,
       "angle": -180,
       "contrailSize": 18,
-      "style": "MIDLINE"
+      "length": 41,
+      "location": [-47, -20],
+      "style": "MIDLINE",
+      "width": 18
     }
   ],
   "bounds": [

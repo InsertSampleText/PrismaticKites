@@ -2,7 +2,7 @@
   "hullName": "Lavender",
   "hullId": "pk_lavender",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/pk_Lavender.png",
+  "spriteName": "graphics/ships/superkites/pk_Lavender.png",
   "style": "HIGH_TECH",
   "height": 66,
   "width": 82,
@@ -16,97 +16,97 @@
   ],
   "weaponSlots": [
     {
+      "angle": 0,
+      "arc": 31,
       "id": "WS 001",
-      "size": "SMALL",
-      "type": "ENERGY",
+      "locations": [16, 18],
       "mount": "HARDPOINT",
-      "arc": 31,
-      "angle": 0,
-      "locations": [16, 18]
+      "size": "SMALL",
+      "type": "ENERGY"
     },
     {
-      "id": "WS 002",
-      "size": "SMALL",
-      "type": "ENERGY",
-      "mount": "HARDPOINT",
-      "arc": 31,
       "angle": -0,
-      "locations": [16, -18]
+      "arc": 31,
+      "id": "WS 002",
+      "locations": [16, -18],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
     },
     {
-      "id": "WS 003",
-      "size": "SMALL",
-      "type": "ENERGY",
-      "mount": "TURRET",
-      "arc": 90,
       "angle": 0,
-      "locations": [-7, 0]
+      "arc": 90,
+      "id": "WS 003",
+      "locations": [-7, 0],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
     }
   ],
   "engineSlots": [
     {
+      "angle": 180,
+      "contrailSize": 50,
+      "length": 30,
       "location": [-21, 28],
-      "length": 30,
-      "width": 8,
-      "angle": 180,
-      "contrailSize": 50,
-      "style": "HIGH_TECH"
+      "style": "HIGH_TECH",
+      "width": 8
     },
     {
+      "angle": 180,
+      "contrailSize": 68,
+      "length": 40,
       "location": [-27, 13],
-      "length": 40,
-      "width": 10,
-      "angle": 180,
-      "contrailSize": 68,
-      "style": "HIGH_TECH"
+      "style": "HIGH_TECH",
+      "width": 10
     },
     {
+      "angle": 180,
+      "contrailSize": 68,
+      "length": 40,
       "location": [-27, -13],
-      "length": 40,
-      "width": 10,
-      "angle": 180,
-      "contrailSize": 68,
-      "style": "HIGH_TECH"
+      "style": "HIGH_TECH",
+      "width": 10
     },
     {
-      "location": [-21, -28],
-      "length": 30,
-      "width": 8,
       "angle": 180,
       "contrailSize": 50,
-      "style": "HIGH_TECH"
+      "length": 30,
+      "location": [-21, -28],
+      "style": "HIGH_TECH",
+      "width": 8
     },
     {
-      "location": [-16, -36],
-      "length": 24,
-      "width": 6,
       "angle": 210,
       "contrailSize": 128,
-      "style": "HIGH_TECH"
+      "length": 24,
+      "location": [-16, -36],
+      "style": "HIGH_TECH",
+      "width": 6
     },
     {
-      "location": [-16, 36],
-      "length": 24,
-      "width": 6,
       "angle": 150,
       "contrailSize": 128,
-      "style": "HIGH_TECH"
+      "length": 24,
+      "location": [-16, 36],
+      "style": "HIGH_TECH",
+      "width": 6
     },
     {
-      "location": [-22, -20],
-      "length": 20,
-      "width": 6,
       "angle": 185,
       "contrailSize": 30,
-      "style": "HIGH_TECH"
+      "length": 20,
+      "location": [-22, -20],
+      "style": "HIGH_TECH",
+      "width": 6
     },
     {
-      "location": [-22, 21],
-      "length": 20,
-      "width": 6,
       "angle": 175,
       "contrailSize": 30,
-      "style": "HIGH_TECH"
+      "length": 20,
+      "location": [-22, 21],
+      "style": "HIGH_TECH",
+      "width": 6
     }
   ],
   "bounds": [
