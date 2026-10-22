@@ -1,0 +1,144 @@
+{
+  "hullName": "Gaillardia",
+  "hullId": "pk_gaillardia",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/megakites/pk_Gaillardia.png",
+  "style": "MIDLINE",
+  "height": 103,
+  "width": 128,
+  "center": [64, 49],
+  "collisionRadius": 94,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 83.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "eccm"
+  ],
+  "builtInWings": [
+    "pk_minikitesquare_wing"
+  ],
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 20,
+      "id": "WS0002",
+      "locations": [5, 34],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 20,
+      "id": "WS0003",
+      "locations": [5, -34],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 20,
+      "id": "WS0001",
+      "locations": [15, -17.5],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": 0,
+      "arc": 20,
+      "id": "WS0004",
+      "locations": [15, 17.5],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": 180,
+      "arc": 90,
+      "id": "WS0005",
+      "locations": [-10, 0],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "engineSlots": [
+    {
+      "angle": 150,
+      "contrailSize": 128,
+      "length": 30,
+      "location": [-30, 58],
+      "style": "MIDLINE",
+      "width": 10
+    },
+    {
+      "angle": 210,
+      "contrailSize": 128,
+      "length": 30,
+      "location": [-30, -58],
+      "style": "MIDLINE",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 11,
+      "length": 32.5,
+      "location": [-38, 43.5],
+      "style": "MIDLINE",
+      "width": 11
+    },
+    {
+      "angle": -180,
+      "contrailSize": 11,
+      "length": 32.5,
+      "location": [-38, -43.5],
+      "style": "MIDLINE",
+      "width": 11
+    },
+    {
+      "angle": 168.5,
+      "contrailSize": 6.752903,
+      "length": 17.002928,
+      "location": [-40.5, 32],
+      "style": "MIDLINE",
+      "width": 6.752903
+    },
+    {
+      "angle": -168.5,
+      "contrailSize": 6.752903,
+      "length": 17.002928,
+      "location": [-40.5, -32],
+      "style": "MIDLINE",
+      "width": 6.752903
+    },
+    {
+      "angle": 180,
+      "contrailSize": 18,
+      "length": 41,
+      "location": [-47, 20],
+      "style": "MIDLINE",
+      "width": 18
+    },
+    {
+      "angle": -180,
+      "contrailSize": 18,
+      "length": 41,
+      "location": [-47, -20],
+      "style": "MIDLINE",
+      "width": 18
+    }
+  ],
+  "bounds": [
+    -47.5, -21.5,
+    -26.5, -63,
+    13.5, -44,
+    37, -20,
+    52.5, 0,
+    37, 20,
+    13.5, 44,
+    -26.5, 63,
+    -47.5, 21.5
+  ]
+}

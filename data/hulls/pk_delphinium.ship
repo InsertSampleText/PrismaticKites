@@ -1,0 +1,124 @@
+{
+  "hullName": "Delphinium",
+  "hullId": "pk_delphinium",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/megakites/pk_Delphinium.png",
+  "style": "HIGH_TECH",
+  "height": 103,
+  "width": 128,
+  "center": [64, 49],
+  "collisionRadius": 94,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 83.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "phase_anchor",
+    "targetingunit"
+  ],
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 200,
+      "id": "WS0001",
+      "locations": [-17, 0],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 20,
+      "id": "WS0002",
+      "locations": [5, 34],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 20,
+      "id": "WS0003",
+      "locations": [5, -34],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    }
+  ],
+  "engineSlots": [
+    {
+      "angle": 150,
+      "contrailSize": 128,
+      "length": 30,
+      "location": [-30, 58],
+      "style": "MIDLINE",
+      "width": 10
+    },
+    {
+      "angle": 210,
+      "contrailSize": 128,
+      "length": 30,
+      "location": [-30, -58],
+      "style": "MIDLINE",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 11,
+      "length": 32.5,
+      "location": [-38, 43.5],
+      "style": "HIGH_TECH",
+      "width": 11
+    },
+    {
+      "angle": -180,
+      "contrailSize": 11,
+      "length": 32.5,
+      "location": [-38, -43.5],
+      "style": "HIGH_TECH",
+      "width": 11
+    },
+    {
+      "angle": 168.5,
+      "contrailSize": 6.75,
+      "length": 17,
+      "location": [-40.5, 32],
+      "style": "HIGH_TECH",
+      "width": 6.75
+    },
+    {
+      "angle": -168.5,
+      "contrailSize": 6.75,
+      "length": 17,
+      "location": [-40.5, -32],
+      "style": "HIGH_TECH",
+      "width": 6.75
+    },
+    {
+      "angle": 180,
+      "contrailSize": 18,
+      "length": 41,
+      "location": [-47, 20],
+      "style": "HIGH_TECH",
+      "width": 18
+    },
+    {
+      "angle": -180,
+      "contrailSize": 18,
+      "length": 41,
+      "location": [-47, -20],
+      "style": "HIGH_TECH",
+      "width": 18
+    }
+  ],
+  "bounds": [
+    -47.5, -21.5,
+    -26.5, -63,
+    13.5, -44,
+    37, -20,
+    52.5, 0,
+    37, 20,
+    13.5, 44,
+    -26.5, 63,
+    -47.5, 21.5
+  ]
+}

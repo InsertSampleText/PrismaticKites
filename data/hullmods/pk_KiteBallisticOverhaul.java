@@ -15,15 +15,18 @@ import com.fs.starfarer.api.impl.campaign.ids.Stats;
 public class pk_KiteBallisticOverhaul extends BaseHullMod {
 
 	public static float TURRET_SPEED_BONUS = 75f;
-	public static float RECOIL_BONUS = 20f;
+	public static float RECOIL_BONUS = 30f;
 	public static float TURRET_HEALTH_BONUS = 100f;
-	public static float TURRET_ROF_BONUS = 10f;
+	public static float TURRET_ROF_BONUS = 100f;
 	public static float MISSILE_RANGE_DEBUFF = 20f;
-	public static float MISSILE_SPEED_DEBUFF = 10f;
+	//public static float MISSILE_SPEED_DEBUFF = 10f;
+	//public static float MISSILE_AMMO_DEBUFF = 10f;
+	public static float MISSILE_ROF_DEBUFF = 50f;
 
 
 	public static float CR_PENALTY = 0.80f;
 	public static float PENALTY = 20f;
+	//thanks Emergent Threats
 	private static String KITE = "kite";
 	private static String KGS = "pk_kitegroundsupport";
 	private static String KIO = "pk_kiteinterceptoroverhaul";
@@ -57,7 +60,9 @@ public class pk_KiteBallisticOverhaul extends BaseHullMod {
 		stats.getPeakCRDuration().modifyMult(id, CR_PENALTY);
 
 		stats.getMissileWeaponRangeBonus().modifyPercent(id, -MISSILE_RANGE_DEBUFF);
-		stats.getMissileMaxSpeedBonus().modifyPercent(id, -MISSILE_SPEED_DEBUFF);
+		//stats.getMissileMaxSpeedBonus().modifyPercent(id, -MISSILE_SPEED_DEBUFF);
+		stats.getMissileRoFMult().modifyMult(id, (float) Math.round(MISSILE_ROF_DEBUFF * 0.01f));
+	
 		
 	}
 
@@ -101,7 +106,7 @@ public class pk_KiteBallisticOverhaul extends BaseHullMod {
 		if (index == 7) return "" + ((Float) mag.get(HullSize.CAPITAL_SHIP)).intValue() + "%";
 		if (index == 8) return "" + (int) PENALTY + "%";
 		if (index == 9) return "" + (int)Math.round(MISSILE_RANGE_DEBUFF) + "%";
-		if (index == 10) return "" + (int)Math.round(MISSILE_SPEED_DEBUFF) + "%";
+		if (index == 10) return "" + (int)Math.round(MISSILE_ROF_DEBUFF) + "%";
 		return null;
 	}
 

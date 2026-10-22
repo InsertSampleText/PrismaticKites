@@ -1,0 +1,142 @@
+{
+  "hullName": "Osteospermum",
+  "hullId": "pk_osteospermum",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/megakites/pk_Osteospermum.png",
+  "style": "HIGH_TECH",
+  "height": 103,
+  "width": 128,
+  "center": [64, 49],
+  "collisionRadius": 94,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 83.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "armoredweapons",
+    "high_scatter_amp"
+  ],
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 200,
+      "id": "WS0001",
+      "locations": [-23, 0],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 20,
+      "id": "WS0002",
+      "locations": [21.5, 29],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 20,
+      "id": "WS0003",
+      "locations": [21.5, -29],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": -45,
+      "arc": 130,
+      "id": "WS0004",
+      "locations": [-19, -18],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 45,
+      "arc": 130,
+      "id": "WS0005",
+      "locations": [-19, 18],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    }
+  ],
+  "engineSlots": [
+    {
+      "angle": 150,
+      "contrailSize": 128,
+      "length": 30,
+      "location": [-30, 58],
+      "style": "MIDLINE",
+      "width": 10
+    },
+    {
+      "angle": 210,
+      "contrailSize": 128,
+      "length": 30,
+      "location": [-30, -58],
+      "style": "MIDLINE",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 11,
+      "length": 32.5,
+      "location": [-38, 43.5],
+      "style": "MIDLINE",
+      "width": 11
+    },
+    {
+      "angle": -180,
+      "contrailSize": 11,
+      "length": 32.5,
+      "location": [-38, -43.5],
+      "style": "MIDLINE",
+      "width": 11
+    },
+    {
+      "angle": 168.5,
+      "contrailSize": 6.752903,
+      "length": 17.002928,
+      "location": [-40.5, 32],
+      "style": "MIDLINE",
+      "width": 6.752903
+    },
+    {
+      "angle": -168.5,
+      "contrailSize": 6.752903,
+      "length": 17.002928,
+      "location": [-40.5, -32],
+      "style": "MIDLINE",
+      "width": 6.752903
+    },
+    {
+      "angle": 180,
+      "contrailSize": 18,
+      "length": 41,
+      "location": [-47, 20],
+      "style": "MIDLINE",
+      "width": 18
+    },
+    {
+      "angle": -180,
+      "contrailSize": 18,
+      "length": 41,
+      "location": [-47, -20],
+      "style": "MIDLINE",
+      "width": 18
+    }
+  ],
+  "bounds": [
+    -47.5, -21.5,
+    -26.5, -63,
+    13.5, -44,
+    37, -20,
+    52.5, 0,
+    37, 20,
+    13.5, 44,
+    -26.5, 63,
+    -47.5, 21.5
+  ]
+}

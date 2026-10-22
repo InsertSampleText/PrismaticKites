@@ -1,3 +1,13 @@
+v0.2.0
+SAVE INCOMPATIBLE
+had to change id of the square mini-kite and changed names of wing ids to be more in line with vanilla naming conventions
+sorry
+
+-added the mega kite line
+-added two uber kites
+-added special kite hullmods only for kites (non altered designs)
+
+
 v0.1.1
 -Updated paths and text details 
 -Added a new weapon

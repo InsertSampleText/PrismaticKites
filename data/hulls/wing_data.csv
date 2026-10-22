@@ -1,6 +1,6 @@
 id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
-pk_minikite,pk_minikitesquare_Bomber,"bomber5, bomber, merc, ind, lowtech_bp, midline_bp, pk_KiteCrafterDrone_bp",1,0.1,6,12,BOX,2000,500,,4,BOMBER,Miniturized Kite - Bomber,10,7500,,,,,,,,,,,,,2
+pk_minikitesquare_wing,pk_minikitesquare_Bomber,"bomber5, bomber, merc, ind, lowtech_bp, midline_bp, pk_KiteCrafterDrone_bp",1,0.1,6,12,BOX,2000,500,,4,BOMBER,Miniturized Kite - Bomber,10,7500,,,,,,,,,,,,,2
 pk_minikitetriangle_wing,pk_minikitetriangle_Fighter,"fighter5, fighter, merc, ind, midline_bp, pk_KiteCrafterDrone_bp",1,0.1,6,12,V,2000,500,,3,FIGHTER,Miniturized Kite - Fighter,12,7500,,,,,,,,,,,,,2.1
 pk_minikiteline_wing,pk_minikiteline_Support,"fighter5, interceptor, merc, ind, hightech_bp, pk_KiteCrafterDrone_bp",1,0.1,6,12,V,2000,500,,2,FIGHTER,Miniturized Kite - Support,16,7500,,,,,,,,,,,,,2.2
-pk_minikitedot,pk_minikitedot_Solo,"fighter5, fighter, merc, ind, midline_bp, pk_KiteCrafterDrone_bp",1,0.1,6,16,BOX,10000,1000,,1,FIGHTER,Miniturized Kite - Solo,20,9000,,,,,,,,,,,,,2.3
-pk_minikiteblack,pk_minikiteblack_terminator,"no_drop, no_sell, high",3,,12,18,BOX,0,500,,5,SUPPORT,Miniturized Kite - Support,1,10000,,,,,,,,,,,,,
+pk_minikitedot_wing,pk_minikitedot_Solo,"fighter5, fighter, merc, ind, midline_bp, pk_KiteCrafterDrone_bp",1,0.1,6,16,BOX,10000,1000,,1,FIGHTER,Miniturized Kite - Solo,20,9000,,,,,,,,,,,,,2.3
+pk_minikiteblack_wing,pk_minikiteblack_terminator,"no_drop, no_sell, high",3,,12,18,BOX,0,500,,5,SUPPORT,Miniturized Kite - Support,1,10000,,,,,,,,,,,,,

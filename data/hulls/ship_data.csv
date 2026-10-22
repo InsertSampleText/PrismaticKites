@@ -22,10 +22,14 @@ Terminator Kite,pk_minikiteblack,,Kite Crafter,,,400,50,100,,30,0,,240,600,600,9
 #MEGAKITES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Mega Kite,pk_megakite,Mega Kite,Kite Crafter,maneuveringjets,8,4000,450,4200,,260,80,,100,100,80,35,80,250,OMNI,,150,0.5,0.8,,,20,40,60,60,2,30,10,20000,5,20,300,0.25,6,7,,,,,,,,"ind, midline_bp, pk_KiteCrafter2_bp",,,,0.7,2,3,,220
 Mega Kite (Freighter),pk_megakitefreighter,Mega Kite,Kite Crafter,maneuveringjets,5,4000,450,4200,,240,40,,100,100,80,35,80,250,OMNI,,150,0.5,0.8,,,20,100,350,150,2,40,9,20000,5,10,240,0.25,4,4,,,,,,,,"ind, midline_bp, pk_KiteCrafter2_bp",,,,0.7,2,3,,220.1
-Canna Lily,pk_cannalily,Mega Kite,Kite Crafter,,11,4000,450,4200,,260,80,,100,100,80,35,80,250,OMNI,,150,0.5,0.8,,,20,40,60,60,2,30,10,20000,5,20,300,0.25,6,7,,,,,,,,"ind, midline_bp, pk_KiteCrafter2_bp",,,,0.7,2,3,,220.2
+Canna Lily,pk_cannalily,Mega Kite,Kite Crafter,ammofeed,12,5000,450,5000,,400,95,,140,140,60,35,80,275,OMNI,,150,0.5,0.8,,,20,40,60,60,2,30,10,20000,5,20,300,0.25,12,12,,,,,,,,"ind, midline_bp, pk_KiteCrafter2_bp",,,,0.7,2,3,,220.2
+Gaillardia,pk_gaillardia,Mega Kite,Kite Crafter,targetingfeed,12,5000,450,5000,,400,95,1,140,140,60,35,80,275,OMNI,,150,0.5,0.8,,,20,40,60,60,2,30,10,20000,5,20,300,0.25,12,12,,,,,,,,"ind, midline_bp, pk_KiteCrafter2_bp",,,,0.7,2,3,,220.3
+Hydrangeas,pk_hydrangeas,Mega Kite,Kite Crafter,reservewing,12,5000,450,5000,,400,95,1,140,140,60,35,80,275,FRONT,,360,0.5,0.8,,,20,40,60,60,2,30,10,20000,5,20,300,0.25,12,12,,,,,,,,"ind, midline_bp, hightech_bp, pk_KiteCrafter2_bp",,,,0.7,2,3,,220.4
+Osteospermum,pk_osteospermum,Mega Kite,Kite Crafter,temporalshell,12,5000,450,5000,,400,95,,140,140,60,35,80,275,OMNI,,150,0.5,0.8,,,20,40,60,60,2,30,10,20000,5,20,300,0.25,12,12,,,,,,,,"ind, midline_bp, hightech_bp, pk_KiteCrafter2_bp",,,,0.7,2,3,,220.5
+Delphinium,pk_delphinium,Mega Kite,Kite Crafter,highenergyfocus,12,5000,450,5000,,400,95,,140,140,60,35,80,275,PHASE,phasecloak,150,,,0.1,0.05,20,40,60,60,2,30,10,20000,5,20,300,0.25,12,12,,,,,,,,"ind, midline_bp, hightech_bp, pk_KiteCrafter2_bp",,,,0.7,2,3,,220.6
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Hazel,pk_hazel,Super Kite,Kite Crafter,maneuveringjets,6,1500,250,2000,,135,40,,160,170,80,50,90,140,OMNI,,150,0.5,0.8,,,5,20,20,14,1,14,9,9000,5,20,240,0.25,4,4,,,,,,,,"ind, midline_bp, pk_KiteCrafter_bp",,,,0.75,2,2,,217
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #UBERKITES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Ebony,pk_ebony,Uber Kite,Kite Crafter,pk_minikite_strike,12,2250,300,3000,,240,50,1,200,250,125,75,125,160,PHASE,phasecloak,150,,,0.1,0.05,5,10,10,13,1,13,9,15000,6,22,360,0.25,10,6,,,,,,,COMBAT,"ind, midline_bp, pk_KiteCrafter3_bp",,,0.75,0.75,2,2,,215
-Alabaster,pk_alabaster,Uber Kite,Kite Crafter,pk_piercinglight,12,2250,300,3000,,240,50,,200,250,125,75,125,160,OMNI,,150,0.5,0.8,,,5,10,10,13,1,13,9,15000,6,22,360,0.25,10,6,,,,,,,,"ind, midline_bp, pk_KiteCrafter3_bp",,,0.75,0.75,2,2,,215.1
+Ebony,pk_ebony,Uber Kite,Kite Crafter,pk_minikite_strike,12,2250,300,3000,,240,50,1,200,250,125,75,125,160,PHASE,phasecloak,150,,,0.1,0.05,5,10,10,13,1,13,9,15000,6,22,360,0.25,10,6,,,,,,,"COMBAT, CARRIER","ind, midline_bp, pk_KiteCrafter3_bp",,,0.75,0.75,2,2,,215
+Alabaster,pk_alabaster,Uber Kite,Kite Crafter,pk_piercinglight,12,2250,300,3000,,240,50,,200,250,125,75,125,160,FRONT,,300,0.5,0.8,,,5,10,10,13,1,13,9,15000,6,22,360,0.25,10,6,,,,,,,,"ind, midline_bp, pk_KiteCrafter3_bp",,,0.75,0.75,2,2,,215.1

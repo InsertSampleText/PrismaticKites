@@ -15,9 +15,28 @@
     "pk_blindingdarkness"
   ],
   "builtInWings": [
-    "pk_minikiteblack"
+    "pk_minikiteblack_wing"
   ],
-  "weaponSlots": [],
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [17, 19],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [17, -19],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    }
+  ],
   "engineSlots": [
     {
       "angle": 180,

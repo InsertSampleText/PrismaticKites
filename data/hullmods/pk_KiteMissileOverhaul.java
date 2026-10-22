@@ -10,8 +10,9 @@ import com.fs.starfarer.api.impl.campaign.ids.Stats;
 
 public class pk_KiteMissileOverhaul extends BaseHullMod {
 
-	public static float AMMO_BONUS = 50f;
-	public static float ROF_MULT = 20f;
+	public static float AMMO_BONUS = 75f;
+	public static float ROF_MULT = 75f;
+	public static float BALLISTIC_ROF_DEBUFF = 50f;
 
 	public static float CR_PENALTY = 0.60f;
 	public static float PENALTY = 40f;
@@ -23,8 +24,9 @@ public class pk_KiteMissileOverhaul extends BaseHullMod {
 	
 	public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
 		stats.getMissileAmmoBonus().modifyPercent(id, AMMO_BONUS);
-		stats.getMissileRoFMult().modifyMult(id, ROF_MULT);
+		stats.getMissileRoFMult().modifyMult(id, 1f + (ROF_MULT * 0.01f));
 		stats.getPeakCRDuration().modifyMult(id, CR_PENALTY);
+		stats.getBallisticRoFMult().modifyMult(id, 1f - (BALLISTIC_ROF_DEBUFF * 0.01f));
 	}
 
 	@Override

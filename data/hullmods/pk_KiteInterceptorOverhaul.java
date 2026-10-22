@@ -30,9 +30,13 @@ public class pk_KiteInterceptorOverhaul extends BaseHullMod {
 
 		// stats.getBallisticWeaponDamageMult().modifyMult(id, 1f - DAMAGE_REDUCTION * 0.01f);
 		// stats.getMissileWeaponDamageMult().modifyMult(id, 1f - DAMAGE_REDUCTION * 0.01f);
-		stats.getDamageToFrigates().modifyPercent(id, -DAMAGE_REDUCTION);
-		stats.getDamageToDestroyers().modifyPercent(id, -DAMAGE_REDUCTION);
-		stats.getDamageToCruisers().modifyPercent(id, -DAMAGE_REDUCTION);
+		//stats.getDamageToFrigates().modifyPercent(id, -DAMAGE_REDUCTION);
+		// stats.getDamageToDestroyers().modifyPercent(id, -DAMAGE_REDUCTION);
+		// stats.getDamageToCruisers().modifyPercent(id, -DAMAGE_REDUCTION);
+
+		stats.getDamageToFrigates().modifyMult(id, 1f - (DAMAGE_REDUCTION * 0.01f));
+		stats.getDamageToDestroyers().modifyMult(id, 1f - (DAMAGE_REDUCTION * 0.01f));
+		stats.getDamageToCruisers().modifyMult(id, 1f - (DAMAGE_REDUCTION * 0.01f));
 
 		stats.getPeakCRDuration().modifyMult(id, CR_PENALTY);
 		

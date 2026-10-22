@@ -13,7 +13,7 @@ public class pk_PiercingLightStats extends BaseShipSystemScript {
 
 	public static float SPEED_BONUS = 900;
 	public static float DAMAGE_REDUCTION = .9f;
-
+	public static float SHIELD_SIZE_BONUS = 120;
 	public static float MASS_BONUS = 5000f;
 
 	private Float mass = null;
@@ -22,7 +22,7 @@ public class pk_PiercingLightStats extends BaseShipSystemScript {
 	public void apply(MutableShipStatsAPI stats, String id, State state, float effectLevel) {
 
 		// CombatEntityAPI ship = (ShipAPI) stats.getEntity();
-
+		//thanks PAGSM
 		
 		ShipAPI ship = null;
         boolean player = false;
@@ -52,8 +52,9 @@ public class pk_PiercingLightStats extends BaseShipSystemScript {
 			// effectLevel);
 
 			stats.getShieldDamageTakenMult().modifyMult(id, 1f - DAMAGE_REDUCTION * effectLevel);
+			stats.getShieldUnfoldRateMult().modifyPercent(id, 2000);
 
-			 ship.setMass(mass + MASS_BONUS);
+			ship.setMass(mass + MASS_BONUS);
 
 		}
 
@@ -72,6 +73,7 @@ public class pk_PiercingLightStats extends BaseShipSystemScript {
 		stats.getShieldTurnRateMult().unmodify(id);
 		stats.getShieldUnfoldRateMult().unmodify(id);
 		stats.getShieldUpkeepMult().unmodify(id);
+		stats.getShieldUnfoldRateMult().unmodify(id);
 	}
 
 	public StatusData getStatusData(int index, State state, float effectLevel) {

@@ -11,6 +11,10 @@
   "shieldCenter": [0, 0],
   "shieldRadius": 83.5,
   "viewOffset": 0,
+  "builtInMods": [
+    "missleracks",
+    "missile_autoloader"
+  ],
   "weaponSlots": [
     {
       "angle": 0,
