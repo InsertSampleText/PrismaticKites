@@ -3,16 +3,9 @@
 	# "type":"ENGINE_MOD",
 	# "aiType":"BURN_DRIVE_TOGGLE",
 	
-<<<<<<< Updated upstream
-	"type":"STAT_MOD",
-	"aiType":"ENTROPY_AMPLIFIER",
-=======
-	"type":"WEAPON",
+	"type":"ENGINE_MOD",
 	"aiType": "CUSTOM",
 	"aiScript": "data.shipsystems.scripts.ai.pk_PiercingLightAI",
-	
-	"weaponDataId":"pk_piercinglightbeam",
->>>>>>> Stashed changes
 	
 	"statsScript":"data.shipsystems.scripts.pk_PiercingLightStats",
 
@@ -50,15 +43,9 @@
 	"outOfUsesSound":"engine_disabled",
 	
 	"aiHints":{
-<<<<<<< Updated upstream
-		"activeSpeedIncrease":900,
-		"burstMovementPotential":800,
-		"averageSpeedIncrease":4500,
-=======
 		# "activeSpeedIncrease":900,
 		# "burstMovementPotential":800,
 		# "averageSpeedIncrease":4500,
->>>>>>> Stashed changes
 		# "threatRange":500,
 		# "threatAmount":32,
 	}

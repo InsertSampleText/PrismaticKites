@@ -14,29 +14,6 @@
   "builtInMods": [
     "ground_support"
   ],
-<<<<<<< Updated upstream:data/hulls/pk_ebony.ship
-  "builtInWings": [
-    "pk_minikiteblack_wing"
-  ],
-  "weaponSlots": [
-    {
-      "angle": 0,
-      "arc": 0,
-      "id": "WS0001",
-      "locations": [17, 19],
-      "mount": "TURRET",
-      "size": "SMALL",
-      "type": "SYNERGY"
-    },
-    {
-      "angle": -0,
-      "arc": 0,
-      "id": "WS0002",
-      "locations": [17, -19],
-      "mount": "TURRET",
-      "size": "SMALL",
-      "type": "SYNERGY"
-=======
   "weaponSlots": [
     {
       "angle": 0,
@@ -64,7 +41,6 @@
       "mount": "TURRET",
       "size": "SMALL",
       "type": "BALLISTIC"
->>>>>>> Stashed changes:data/hulls/pk_super_hazel.ship
     }
   ],
   "engineSlots": [

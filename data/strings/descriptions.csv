@@ -33,7 +33,6 @@ The Line variant is a more of a supporting type of fighter. Equipped with an EMP
 pk_minikite_dot,SHIP,"A unique Mini-Kite as it is not a drone but rather a more standard fighter that only houses one crew member. This Mini-Kite was given the most similarities to the original Kite, being able to fly as far away from its carrier and act independantly. ",,,,,
 pk_minikite_black,SHIP,"A unique Mini-Kite fashoined from the design of the Terminator Drone specially built into the Ebony Uber Kite. Each drone is equipped with a Burst PD Laser and a Terminator Core, and in their numbers, can serve as a support screen or relatively damaging swarm. Their real specialty lies in their numbers and the fast rate of construction paired with the Termination Sequence, giving the Ebony a veritable array of ""missiles"" to fire.",,,,,
 ,,,,,,,
-<<<<<<< HEAD
 pk_mega_megakite,SHIP,"A ""Mega Kite,"" built by an eccentric mind belonging to the Kite Crafter. The hull of the ship is essentially a Kite upscaled into a Destroyer class ship.",,,,,
 pk_mega_megakitefreighter,SHIP,"A ""Mega Kite,"" built by an eccentric mind belonging to the Kite Crafter. The hull of the ship is essentially a Kite upscaled into a Destroyer class ship.",,,,,
 pk_mega_cannalily,SHIP,"A ""Mega Kite,"" built by an eccentric mind belonging to the Kite Crafter. The hull of the ship is essentially a Kite upscaled into a Destroyer class ship. This class is the combination of two different Super Kite class Kites merged into one.
@@ -53,27 +52,6 @@ pk_mega_delphinium,SHIP,"A ""Mega Kite,"" built by an eccentric mind belonging t
 The Delphinium combines the phase nature of the Indigo and the high energy output of the Cerulean. With its intense turret loadout and phase coils, the Delphinium strains its fllux coils, but in exchange, becomes a devastating hit-and-run ship.",,,,,
 ,,,,,,,
 pk_super_hazel,SHIP,"A ""Super Kite"" Built by the enigmatic genius known as the Kite Crafter. While these ship designs may hold forms close to the ubiquitous Kite, many debate on whether it still is a Kite on account for the overhauled specs and significant design changes.
-=======
-pk_megakite,SHIP,"A ""Mega Kite,"" built by an eccentric mind belonging to the Kite Crafter. The hull of the ship is essentially a Kite upscaled into a Destroyer class ship.",,,,,
-pk_megakitefreighter,SHIP,"A ""Mega Kite,"" built by an eccentric mind belonging to the Kite Crafter. The hull of the ship is essentially a Kite upscaled into a Destroyer class ship.",,,,,
-pk_cannalily,SHIP,"A ""Mega Kite,"" built by an eccentric mind belonging to the Kite Crafter. The hull of the ship is essentially a Kite upscaled into a Destroyer class ship. This class is the combination of two different Super Kite class Kites merged into one.
-
-The Canna Lily combines both the raw missile power of the Vermillion and the ballistic output of the Gamboge.",,,,,
-pk_gaillardia,SHIP,"A ""Mega Kite,"" built by an eccentric mind belonging to the Kite Crafter. The hull of the ship is essentially a Kite upscaled into a Destroyer class ship. This class is the combination of two different Super Kite class Kites merged into one.
-
-The Gaillardia combines the fighter wings of the Citrine with the missile power of the Vermillion.",,,,,
-pk_hydrangeas,SHIP,"A ""Mega Kite,"" built by an eccentric mind belonging to the Kite Crafter. The hull of the ship is essentially a Kite upscaled into a Destroyer class ship. This class is the combination of two different Super Kite class Kites merged into one.
-
-The Hydrangeas combines the defensive nature of the Verdant and the powerful utility of the Cerulean.",,,,,
-pk_osteospermum,SHIP,"A ""Mega Kite,"" built by an eccentric mind belonging to the Kite Crafter. The hull of the ship is essentially a Kite upscaled into a Destroyer class ship. This class is the combination of two different Super Kite class Kites merged into one.
-
-The Osteospermum combines the ballistic output of the Gamboge and the temporal acceleration of the Lavender.",,,,,
-pk_delphinum,SHIP,"A ""Mega Kite,"" built by an eccentric mind belonging to the Kite Crafter. The hull of the ship is essentially a Kite upscaled into a Destroyer class ship. This class is the combination of two different Super Kite class Kites merged into one.
-
-The Delphinium combines the phase nature of the Indigo and the high energy output of the Cerulean.",,,,,
-,,,,,,,
-pk_hazel,SHIP,"A ""Super Kite"" Built by the enigmatic genius known as the Kite Crafter. While these ship designs may hold forms close to the ubiquitous Kite, many debate on whether it still is a Kite on account for the overhauled specs and significant design changes.
->>>>>>> 1563d9a998046fcbed6c2f526e6d71b055cdc99b
 
 The Hazel doesn't have much changed in regards to its layout compared to its progenitor, sporting its three basic ports. However, it does have solid built-in ground support capabilities.",,,,,
 ,,,,,,,

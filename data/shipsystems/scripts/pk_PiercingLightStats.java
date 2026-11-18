@@ -11,35 +11,23 @@ import com.fs.starfarer.api.plugins.ShipSystemStatsScript;
 
 public class pk_PiercingLightStats extends BaseShipSystemScript {
 
-<<<<<<< Updated upstream
-	public static float SPEED_BONUS = 900;
-	public static float DAMAGE_REDUCTION = .9f;
-	public static float SHIELD_SIZE_BONUS = 120;
-	public static float MASS_BONUS = 5000f;
-=======
 	public static float SPEED_BONUS = 300;
-	public static float DAMAGE_REDUCTION = .95f;
+	public static float DAMAGE_REDUCTION = .9f;
 	public static float SHIELD_DAMAGE_REDUCTION = .66f;
 	public static float SHIELD_SIZE_BONUS = 120;
-	public static float MASS_BONUS = 1000f;
+	public static float MASS_BONUS = 3750f;
 
 	public static final float MAX_TIME_MULT = 2f;
 	// public static final float MIN_TIME_MULT = 0.1f;
 	// public static final float DAM_MULT = 0.1f;
->>>>>>> Stashed changes
 
 	private Float mass = null;
 
 	public void apply(MutableShipStatsAPI stats, String id, State state, float effectLevel) {
 
 		// CombatEntityAPI ship = (ShipAPI) stats.getEntity();
-<<<<<<< Updated upstream
-		//thanks PAGSM
-		
-=======
 		// thanks PAGSM
 
->>>>>>> Stashed changes
 		ShipAPI ship = null;
 		boolean player = false;
 		if (stats.getEntity() instanceof ShipAPI) {
@@ -65,14 +53,8 @@ public class pk_PiercingLightStats extends BaseShipSystemScript {
 			stats.getArmorDamageTakenMult().modifyMult(id, 1f - DAMAGE_REDUCTION * effectLevel);
 			stats.getEmpDamageTakenMult().modifyMult(id, 1f - DAMAGE_REDUCTION * effectLevel);
 
-<<<<<<< Updated upstream
-			stats.getShieldDamageTakenMult().modifyMult(id, 1f - DAMAGE_REDUCTION * effectLevel);
+			stats.getShieldDamageTakenMult().modifyMult(id, 1f - SHIELD_DAMAGE_REDUCTION * effectLevel);
 			stats.getShieldUnfoldRateMult().modifyPercent(id, 2000);
-
-			ship.setMass(mass + MASS_BONUS);
-=======
-			// stats.getShieldDamageTakenMult().modifyMult(id, 1f - SHIELD_DAMAGE_REDUCTION * effectLevel);
-			// stats.getShieldUnfoldRateMult().modifyPercent(id, 2000);
 
 			ship.setMass(mass + MASS_BONUS);
 
@@ -83,7 +65,6 @@ public class pk_PiercingLightStats extends BaseShipSystemScript {
 			} else {
 				Global.getCombatEngine().getTimeMult().unmodify(id);
 			}
->>>>>>> Stashed changes
 
 		}
 
@@ -97,21 +78,17 @@ public class pk_PiercingLightStats extends BaseShipSystemScript {
 		stats.getArmorDamageTakenMult().unmodify(id);
 		stats.getEmpDamageTakenMult().unmodify(id);
 
-<<<<<<< Updated upstream
+
+
 		stats.getShieldArcBonus().unmodify(id);
 		stats.getShieldDamageTakenMult().unmodify(id);
 		stats.getShieldTurnRateMult().unmodify(id);
 		stats.getShieldUnfoldRateMult().unmodify(id);
 		stats.getShieldUpkeepMult().unmodify(id);
 		stats.getShieldUnfoldRateMult().unmodify(id);
-=======
-
-		// stats.getShieldDamageTakenMult().unmodify(id);
-		// stats.getShieldUnfoldRateMult().unmodify(id);
 
 		Global.getCombatEngine().getTimeMult().unmodify(id);
 		stats.getTimeMult().unmodify(id);
->>>>>>> Stashed changes
 	}
 
 	public StatusData getStatusData(int index, State state, float effectLevel) {
@@ -119,7 +96,7 @@ public class pk_PiercingLightStats extends BaseShipSystemScript {
 			return new StatusData("increased engine power", false);
 		}
 		if (index == 1) {
-			return new StatusData("strange energy coating", false);
+			return new StatusData("shield absorbs 10x damage", false);
 		}
 		return null;
 	}

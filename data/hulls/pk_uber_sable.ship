@@ -15,42 +15,20 @@
     "pk_blindingdarkness"
   ],
   "builtInWings": [
-<<<<<<< HEAD:data/hulls/pk_uber_sable.ship
     "pk_minikite_black_wing"
   ],
   "builtInWeapons": {
     "WS0003": "pk_targetinglaser"
   },
-=======
-    "pk_minikiteblack_wing"
-  ],
->>>>>>> 1563d9a998046fcbed6c2f526e6d71b055cdc99b:data/hulls/pk_ebony.ship
   "weaponSlots": [
     {
       "angle": 0,
       "arc": 0,
-<<<<<<< HEAD:data/hulls/pk_uber_sable.ship
       "id": "WS0003",
       "locations": [-0.5, 0],
       "mount": "HIDDEN",
       "size": "SMALL",
       "type": "BUILT_IN"
-=======
-      "id": "WS0001",
-      "locations": [17, 19],
-      "mount": "TURRET",
-      "size": "SMALL",
-      "type": "SYNERGY"
-    },
-    {
-      "angle": -0,
-      "arc": 0,
-      "id": "WS0002",
-      "locations": [17, -19],
-      "mount": "TURRET",
-      "size": "SMALL",
-      "type": "SYNERGY"
->>>>>>> 1563d9a998046fcbed6c2f526e6d71b055cdc99b:data/hulls/pk_ebony.ship
     }
   ],
   "engineSlots": [

@@ -41,42 +41,6 @@
       "mount": "TURRET",
       "size": "SMALL",
       "type": "UNIVERSAL"
-    },
-    {
-      "angle": -20,
-      "arc": 16,
-      "id": "WS0001",
-      "locations": [-8.5, 31.5],
-      "mount": "HIDDEN",
-      "size": "SMALL",
-      "type": "SYSTEM"
-    },
-    {
-      "angle": 20,
-      "arc": 16,
-      "id": "WS0002",
-      "locations": [-8.5, -31.5],
-      "mount": "HIDDEN",
-      "size": "SMALL",
-      "type": "SYSTEM"
-    },
-    {
-      "angle": -9,
-      "arc": 16,
-      "id": "WS0003",
-      "locations": [-4, 13],
-      "mount": "HIDDEN",
-      "size": "SMALL",
-      "type": "SYSTEM"
-    },
-    {
-      "angle": 9,
-      "arc": 16,
-      "id": "WS0004",
-      "locations": [-4, -13],
-      "mount": "HIDDEN",
-      "size": "SMALL",
-      "type": "SYSTEM"
     }
   ],
   "engineSlots": [
