@@ -1,0 +1,87 @@
+{
+  "hullName": "Cerulean",
+  "hullId": "pk_super_cerulean",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/superkites/pk_Cerulean.png",
+  "style": "HIGH_TECH",
+  "height": 66,
+  "width": 82,
+  "center": [41, 28],
+  "collisionRadius": 64,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 58,
+  "viewOffset": 0,
+  "builtInMods": [
+    "targetingunit"
+  ],
+  "builtInWings": [
+    "pk_minikite_line_wing"
+  ],
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 240,
+      "id": "WS 003",
+      "locations": [-8, 0],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    }
+  ],
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 50,
+      "length": 30,
+      "location": [-21, 28],
+      "style": "HIGH_TECH",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 68,
+      "length": 40,
+      "location": [-27, 13],
+      "style": "HIGH_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 68,
+      "length": 40,
+      "location": [-27, -13],
+      "style": "HIGH_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 50,
+      "length": 30,
+      "location": [-21, -28],
+      "style": "HIGH_TECH",
+      "width": 8
+    },
+    {
+      "angle": 185,
+      "contrailSize": 30,
+      "length": 20,
+      "location": [-22, -20],
+      "style": "HIGH_TECH",
+      "width": 6
+    },
+    {
+      "angle": 175,
+      "contrailSize": 30,
+      "length": 20,
+      "location": [-22, 21],
+      "style": "HIGH_TECH",
+      "width": 6
+    }
+  ],
+  "bounds": [
+    37, 0,
+    -12, 40,
+    -26, 0,
+    -11, -39
+  ]
+}

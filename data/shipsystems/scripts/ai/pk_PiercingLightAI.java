@@ -13,6 +13,7 @@ import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.combat.WeaponAPI.WeaponSize;
 import com.fs.starfarer.api.combat.WeaponAPI.WeaponType;
 import com.fs.starfarer.api.util.IntervalUtil;
+<<<<<<< Updated upstream
 
 
 /**
@@ -26,21 +27,35 @@ import com.fs.starfarer.api.util.IntervalUtil;
  *
  * Copyright 2012 Fractal Softworks, LLC
  */
+=======
+import com.fs.starfarer.api.util.Misc;
+
+
+//thanks convulsivelunge
+
+>>>>>>> Stashed changes
 public class pk_PiercingLightAI implements ShipSystemAIScript {
 
 	private ShipAPI ship;
 	private CombatEngineAPI engine;
 	private ShipwideAIFlags flags;
 	private ShipSystemAPI system;
+<<<<<<< Updated upstream
 	
 	private IntervalUtil tracker = new IntervalUtil(0.5f, 1f);
 	
+=======
+
+	private IntervalUtil tracker = new IntervalUtil(0.5f, 1f);
+
+>>>>>>> Stashed changes
 	public void init(ShipAPI ship, ShipSystemAPI system, ShipwideAIFlags flags, CombatEngineAPI engine) {
 		this.ship = ship;
 		this.flags = flags;
 		this.engine = engine;
 		this.system = system;
 	}
+<<<<<<< Updated upstream
 	
 	private float bestFractionEver = 0f;
 	private float sinceLast = 0f;
@@ -120,4 +135,64 @@ public class pk_PiercingLightAI implements ShipSystemAIScript {
 		}
 	}
 
+=======
+
+	private float bestFractionEver = 0f;
+	private float sinceLast = 0f;
+
+	@SuppressWarnings("unchecked")
+	public void advance(float amount, Vector2f missileDangerDir, Vector2f collisionDangerDir, ShipAPI target) {
+		if (ship == null)
+			return;
+		tracker.advance(amount);
+
+		sinceLast += amount;
+
+		if (tracker.intervalElapsed()) {
+			// if (system.getCooldownRemaining() > 0) return;
+			// if (system.isActive()) return;
+			if (!isSystemUsable())
+				return;
+
+			if (target == null)
+				return;
+			if (ship.getFluxTracker().isOverloadedOrVenting())
+				return;
+
+			float hardFluxLevel = ship.getHardFluxLevel();
+			float fluxLevel = ship.getFluxLevel();
+			float arc = 15f;
+			float angle = ship.getFacing();
+			float systemRange = 700;
+
+			if (((hardFluxLevel <= 0.66f) && (fluxLevel <= 0.8f))) {
+				if (target != null) {
+					float dist = Misc.getDistance(ship.getLocation(), target.getLocation());
+					dist -= ship.getCollisionRadius() + target.getCollisionRadius();
+					//angle = Misc.getAngleInDegrees(ship.getLocation(), target.getLocation());
+					if (Misc.isInArc(angle, arc, ship.getLocation(), target.getLocation())) {
+
+						if ((dist < systemRange && dist > 100) || dist > 1000) {
+							ship.useSystem();
+						}
+
+					}
+
+				}
+			}
+
+		}
+	}
+
+	public boolean isSystemUsable() {
+		if (system.getCooldownRemaining() > 0)
+			return false;
+		if (system.isOutOfAmmo())
+			return false;
+		if (system.isActive())
+			return false;
+		return true;
+	}
+
+>>>>>>> Stashed changes
 }

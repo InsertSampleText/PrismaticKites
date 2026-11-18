@@ -1,0 +1,30 @@
+{
+  "variantId": "pk_super_vermillion_Assault",
+  "hullId": "pk_super_vermillion",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 2,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "eccm",
+    "armoredweapons",
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "gorgon",
+        "WS 002": "gorgon",
+        "WS0001": "gorgon",
+        "WS0002": "gorgon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

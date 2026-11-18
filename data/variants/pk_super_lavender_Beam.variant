@@ -1,0 +1,27 @@
+{
+  "variantId": "pk_super_lavender_Beam",
+  "hullId": "pk_super_lavender",
+  "displayName": "Beam",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "auxiliarythrusters",
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "taclaser",
+        "WS 002": "taclaser",
+        "WS 003": "taclaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,128 @@
+{
+  "hullName": "Sable",
+  "hullId": "pk_uber_sable",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/uberkites/pk_Sable.png",
+  "style": "MIDLINE",
+  "height": 66,
+  "width": 82,
+  "center": [41, 28],
+  "collisionRadius": 70.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 58,
+  "viewOffset": 0,
+  "builtInMods": [
+    "pk_blindingdarkness"
+  ],
+  "builtInWings": [
+<<<<<<< HEAD:data/hulls/pk_uber_sable.ship
+    "pk_minikite_black_wing"
+  ],
+  "builtInWeapons": {
+    "WS0003": "pk_targetinglaser"
+  },
+=======
+    "pk_minikiteblack_wing"
+  ],
+>>>>>>> 1563d9a998046fcbed6c2f526e6d71b055cdc99b:data/hulls/pk_ebony.ship
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+<<<<<<< HEAD:data/hulls/pk_uber_sable.ship
+      "id": "WS0003",
+      "locations": [-0.5, 0],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+=======
+      "id": "WS0001",
+      "locations": [17, 19],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [17, -19],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYNERGY"
+>>>>>>> 1563d9a998046fcbed6c2f526e6d71b055cdc99b:data/hulls/pk_ebony.ship
+    }
+  ],
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 50,
+      "length": 30,
+      "location": [-21, 28],
+      "style": "MIDLINE",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 68,
+      "length": 40,
+      "location": [-27, 13],
+      "style": "MIDLINE",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 68,
+      "length": 40,
+      "location": [-27, -13],
+      "style": "MIDLINE",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 50,
+      "length": 30,
+      "location": [-21, -28],
+      "style": "MIDLINE",
+      "width": 8
+    },
+    {
+      "angle": 210,
+      "contrailSize": 128,
+      "length": 24,
+      "location": [-16, -36],
+      "style": "MIDLINE",
+      "width": 6
+    },
+    {
+      "angle": 150,
+      "contrailSize": 128,
+      "length": 24,
+      "location": [-16, 36],
+      "style": "MIDLINE",
+      "width": 6
+    },
+    {
+      "angle": 185,
+      "contrailSize": 30,
+      "length": 20,
+      "location": [-22, -20],
+      "style": "MIDLINE",
+      "width": 6
+    },
+    {
+      "angle": 175,
+      "contrailSize": 30,
+      "length": 20,
+      "location": [-22, 21],
+      "style": "MIDLINE",
+      "width": 6
+    }
+  ],
+  "bounds": [
+    37, 0,
+    -12, 40,
+    -26, 0,
+    -11, -39
+  ]
+}
