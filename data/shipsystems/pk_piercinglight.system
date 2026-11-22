@@ -1,13 +1,10 @@
 {
-	"id":"pk_piercinglight",
-	# "type":"ENGINE_MOD",
-	# "aiType":"BURN_DRIVE_TOGGLE",
-	
+	"id":"pk_piercinglight",	
 	"type":"ENGINE_MOD",
 	"aiType": "CUSTOM",
 	"aiScript": "data.shipsystems.scripts.ai.pk_PiercingLightAI",
-	
 	"statsScript":"data.shipsystems.scripts.pk_PiercingLightStats",
+	"weaponDataId":"pk_piercinglightbeam",
 
 	"engineGlowColor":[255,255,255,125],
 	"engineGlowContrailColor":[237,234,224,125],

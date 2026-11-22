@@ -9,9 +9,6 @@ import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipSystemAIScript;
 import com.fs.starfarer.api.combat.ShipSystemAPI;
 import com.fs.starfarer.api.combat.ShipwideAIFlags;
-import com.fs.starfarer.api.combat.WeaponAPI;
-import com.fs.starfarer.api.combat.WeaponAPI.WeaponSize;
-import com.fs.starfarer.api.combat.WeaponAPI.WeaponType;
 import com.fs.starfarer.api.util.IntervalUtil;
 import com.fs.starfarer.api.util.Misc;
 
@@ -60,7 +57,7 @@ public class pk_PiercingLightAI implements ShipSystemAIScript {
 			float fluxLevel = ship.getFluxLevel();
 			float arc = 15f;
 			float angle = ship.getFacing();
-			float systemRange = 500;
+			float systemRange = 1000;
 
 			if (((hardFluxLevel <= 0.66f) && (fluxLevel <= 0.8f))) {
 				if (target != null) {

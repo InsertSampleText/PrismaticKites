@@ -1,0 +1,20 @@
+{
+    "masterVersionFile":
+	"https://raw.githubusercontent.com/InsertSampleText/PrismaticKites/refs/heads/PrismaticKites.version",
+    "modName":"Prismatic Kites",
+    "modThreadId":36078,
+    "modVersion":
+    {
+        "major":0,
+        "minor":2,
+        "patch":"0"
+    },
+
+        #Link towards a direct download, fetched from the online version file
+        "directDownloadURL":
+		"https://github.com/SirHartley/Illustrated.Entities/releases/download/2.1.a/Illustrated.Entities2.1.a.zip",
+
+        #Link towards a directly accessible text file, which can be used to display a changelog ingame, is fetched from the online version file.
+        "changelogURL":
+		"https://raw.githubusercontent.com/InsertSampleText/PrismaticKites/refs/heads/main/changelog.txt",
+}

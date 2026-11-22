@@ -4,7 +4,7 @@ MicroKite Rocket Sling ,pk_microkiterocketsling,1,0.5,200,1500,,250,,25,20,4,6,0
 Kite Beam,pk_kitebeam,1,0.5,200,700,150,,,0,20,4,,,,ENERGY,,90,0.1,0.1,1,0.2,,,,,2400,,,,,,,,"utility5, midline_bp, hightech_bp, pk_KiteCrafterWeapons_bp",,Kite Crafter,,General,,,,,,,,,,20.2
 Kite Targeting Array,pk_targetinglaser,0,,0,1200,0,,,0,200,0,,,,ENERGY,,,,,,,,,,,,,,,,,,SYSTEM,"restricted, no_drop",,Kite Crafter,,Special,,,,,,,,,,49
 Kite Targeting Array (Fighter),pk_targetinglaserfighter,0,,0,500,0,,,0,200,0,,,,ENERGY,,,,,,,,,,,,,,,,,,SYSTEM,"restricted, no_drop",,Kite Crafter,,Special,,,,,,,,,,49
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Piercing Light,pk_piercinglightbeam,0,,0,59,1500,,,0,0,0,,,,ENERGY,,,,,,,,,,,20000,,,,,,,SYSTEM,"restricted, no_drop",,Kite Crafter,,Special,,,,,,,,,,49
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
