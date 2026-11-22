@@ -12,7 +12,7 @@
 
         #Link towards a direct download, fetched from the online version file
         "directDownloadURL":
-		"https://github.com/SirHartley/Illustrated.Entities/releases/download/2.1.a/Illustrated.Entities2.1.a.zip",
+		"https://github.com/InsertSampleText/PrismaticKites/releases/download/v0.1.1/Prismatic.Kites.zip",
 
         #Link towards a directly accessible text file, which can be used to display a changelog ingame, is fetched from the online version file.
         "changelogURL":
