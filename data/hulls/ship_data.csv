@@ -15,11 +15,11 @@ Lavender,pk_super_lavender,Super Kite,Kite Crafter,temporalshell,6,1500,250,2000
 Hazel,pk_super_hazel,Super Kite,Kite Crafter,maneuveringjets,6,1500,250,2000,,135,40,,160,170,80,50,90,140,OMNI,,150,0.5,0.8,,,5,20,20,14,1,14,9,20000,2,5,20,240,0.25,4,4,,1.5,,,,,,,,"ind, merc, midline_bp, pk_KiteCrafter_bp",,,0.9,0.75,2,2,,217
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #MINIKITES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Square,pk_minikite_square,,Kite Crafter,,,300,40,100,,30,0,,160,330,330,90,190,40,NONE,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,103
-Triangle,pk_minikite_triangle,,Kite Crafter,flarelauncher_fighter,,600,75,140,,40,0,,250,450,400,100,200,40,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,103
-Line,pk_minikite_line,,Kite Crafter,pk_minikite_emp,,300,50,160,,60,0,,300,500,450,120,220,40,FRONT,,360,0,1,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,103
-Dot,pk_minikite_dot,,Kite Crafter,maneuveringjets,,775,125,200,,60,0,,300,400,400,110,200,40,OMNI,,150,0,1,,,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,103
-Terminator Kite,pk_minikite_black,,Kite Crafter,,,400,50,100,,30,0,,240,600,600,90,190,40,NONE,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Square,pk_minikite_square,,Kite Crafter,,,300,40,100,,30,0,,160,330,330,90,190,40,NONE,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,"ind, merc, midline_bp, lowtech_bp, pk_KiteCrafter_bp",,,,0,,,,103
+Triangle,pk_minikite_triangle,,Kite Crafter,flarelauncher_fighter,,600,75,140,,40,0,,250,450,400,100,200,40,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,,,,,"ind, merc, midline_bp, pk_KiteCrafter_bp",,,,0,,,,103
+Line,pk_minikite_line,,Kite Crafter,pk_minikite_emp,,300,50,160,,60,0,,300,500,450,120,220,40,FRONT,,360,0,1,,,0,0,,,,,,,,,,,,,,,,,,,,,,,"ind, merc, midline_bp, hightech_bp, pk_KiteCrafter_bp",,,,0,,,,103
+Dot,pk_minikite_dot,,Kite Crafter,maneuveringjets,,775,125,200,,100,0,,300,400,400,110,200,40,OMNI,,150,0,1,,,1,1,,,,,,,,,,,,,,,,,,,,,,,"ind, merc, midline_bp, pk_KiteCrafter_bp",,,,0,,,,103
+Terminator Kite,pk_minikite_black,,Kite Crafter,,,400,50,100,,30,0,,240,600,600,90,190,40,NONE,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,"no_drop, no_sell,",,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #MEGAKITES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Mega Kite,pk_mega_megakite,Mega Kite,Kite Crafter,maneuveringjets,8,4000,450,5500,,300,95,,100,90,70,50,90,275,OMNI,,150,0.5,0.8,,,20,40,60,60,2,30,10,60000,5,5,20,300,0.25,6,7,,1.5,,,,,,,,"ind, merc, midline_bp, pk_KiteCrafter2_bp",,,0.8,0.7,2,3,,220

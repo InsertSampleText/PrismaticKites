@@ -19,7 +19,7 @@ public class pk_PiercingLightStats extends BaseShipSystemScript {
 	public static float SHIELD_DAMAGE_REDUCTION = .66f;
 	public static float EXPLOSION_DAMAGE_REDUCTION = .9f;
 	public static float SHIELD_SIZE_BONUS = 120;
-	public static float MASS_BONUS = 1000f;
+	public static float MASS_BONUS = 500f;
 
 	public static final float MAX_TIME_MULT = 2f;
 	// public static final float MIN_TIME_MULT = 0.1f;

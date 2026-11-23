@@ -1,6 +1,6 @@
 {
 	"id":"pk_piercinglight",	
-	"type":"ENGINE_MOD",
+	"type":"STAT_MOD",
 	"aiType": "CUSTOM",
 	"aiScript": "data.shipsystems.scripts.ai.pk_PiercingLightAI",
 	"statsScript":"data.shipsystems.scripts.pk_PiercingLightStats",

@@ -46,7 +46,7 @@
       "contrailSize": 6,
       "length": 12,
       "location": [-12, 14],
-      "style": "HIGH_TECH",
+      "style": "LOW_TECH_FIGHTER",
       "width": 6
     },
     {
@@ -54,7 +54,7 @@
       "contrailSize": 6,
       "length": 12,
       "location": [-12, -14],
-      "style": "HIGH_TECH",
+      "style": "LOW_TECH_FIGHTER",
       "width": 6
     },
     {
@@ -62,7 +62,7 @@
       "contrailSize": 128,
       "length": 10,
       "location": [-12, 10],
-      "style": "HIGH_TECH",
+      "style": "LOW_TECH_FIGHTER",
       "width": 6
     },
     {
@@ -70,7 +70,7 @@
       "contrailSize": 128,
       "length": 10,
       "location": [-12, -10],
-      "style": "HIGH_TECH",
+      "style": "LOW_TECH_FIGHTER",
       "width": 6
     },
     {
@@ -78,7 +78,7 @@
       "contrailSize": 9,
       "length": 12.5,
       "location": [-15, 6],
-      "style": "HIGH_TECH",
+      "style": "LOW_TECH_FIGHTER",
       "width": 9
     },
     {
@@ -86,7 +86,7 @@
       "contrailSize": 9,
       "length": 12.5,
       "location": [-15, -6],
-      "style": "HIGH_TECH",
+      "style": "LOW_TECH_FIGHTER",
       "width": 9
     },
     {
@@ -94,7 +94,7 @@
       "contrailSize": 128,
       "length": 12,
       "location": [-10.5, 16],
-      "style": "HIGH_TECH",
+      "style": "LOW_TECH_FIGHTER",
       "width": 6
     },
     {
@@ -102,7 +102,7 @@
       "contrailSize": 128,
       "length": 12,
       "location": [-10.5, -16],
-      "style": "HIGH_TECH",
+      "style": "LOW_TECH_FIGHTER",
       "width": 6
     }
   ],

@@ -14,7 +14,7 @@
 	"useSound":"system_termination_sequence",
 	"outOfUsesSound":"gun_out_of_ammo",
 	
-	"canUseWhileRightClickSystemOn":true,
+	# "canUseWhileRightClickSystemOn":true,
 	
 	"aiHints":{
 		"threatRange":1500,

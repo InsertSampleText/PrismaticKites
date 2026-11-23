@@ -1,0 +1,29 @@
+{
+  "variantId": "pk_uber_sable_Standard",
+  "hullId": "pk_uber_sable",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters",
+    "fluxcoil",
+    "fluxdistributor",
+    "phase_anchor",
+    "unstable_injector",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "pk_targetinglaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

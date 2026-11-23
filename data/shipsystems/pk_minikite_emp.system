@@ -5,8 +5,8 @@
 	
 	"range":400,
 	
-	"empDamage":222,
-	"damage":22,
+	"empDamage":333,
+	"damage":33,
 	"damageType":ENERGY,
 	
 	#"effectColor1":[150,150,255,200],

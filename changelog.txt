@@ -6,7 +6,8 @@ sorry
 -added the mega kite line
 -added two uber kites
 -added special kite hullmods only for kites (non altered designs)
-
+-added version file
+-nerfed Square Mini-Kite by changing missile slots to Hammer Single and changed stats
 
 v0.1.1
 -Updated paths and text details 
