@@ -104,9 +104,9 @@ public class pk_KiteBallisticOverhaul extends BaseHullMod {
 		if (index == 5) return "" + ((Float) mag.get(HullSize.DESTROYER)).intValue() + "%";
 		if (index == 6) return "" + ((Float) mag.get(HullSize.CRUISER)).intValue() + "%";
 		if (index == 7) return "" + ((Float) mag.get(HullSize.CAPITAL_SHIP)).intValue() + "%";
-		if (index == 8) return "" + (int) PENALTY + "%";
+		if (index == 8) return "" + (int) ((1 - CR_PENALTY) * 100) + "%";
 		if (index == 9) return "" + (int)Math.round(MISSILE_RANGE_DEBUFF) + "%";
-		if (index == 10) return "" + (int)Math.round(MISSILE_ROF_DEBUFF) + "%";
+		//if (index == 10) return "" + (int)Math.round(MISSILE_ROF_DEBUFF) + "%";
 		return null;
 	}
 

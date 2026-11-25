@@ -1,3 +1,12 @@
+v0.2.2
+SAVE COMPATIBLE
+-adjusted stats for Mega Kite and Mega Kite Freighter
+--lowered ordinance points, hull points, armor, max flux, top speed, d-mod cost, hull cost, crew sal mult, 
+-fixed KiteMissileOverhaul hullmod tooltip
+-deleted extra osteospermum ship file
+-fixed fatal crash when looking at Kite Ballistic Overhaul tooltip (can't have more than ten format specifiers :(. )
+-removed duplicate Kite entry in the hull.csv
+
 v0.2.1
 SAVE COMPATIBLE
 -forgot to actually give the new ships spawn rates in the ship roles lol added them in

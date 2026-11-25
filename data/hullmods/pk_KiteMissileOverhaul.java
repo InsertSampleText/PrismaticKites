@@ -60,7 +60,8 @@ public class pk_KiteMissileOverhaul extends BaseHullMod {
 	public String getDescriptionParam(int index, HullSize hullSize) {
 		if (index == 0) return "" + (int) AMMO_BONUS + "%";
 		if (index == 1) return "" + (int) ROF_MULT + "%";
-		if (index == 2) return "" + (int) (1 - CR_PENALTY * 0.01) + "%";
+		if (index == 2) return "" + (int) ((1 - CR_PENALTY) * 100) + "%";
+		if (index == 3) return "" + (int) (BALLISTIC_ROF_DEBUFF) + "%";
 		return null;
 	}
 	
