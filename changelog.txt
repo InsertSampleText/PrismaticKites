@@ -1,3 +1,8 @@
+v0.2.4
+SAVE COMPATIBLE
+-changed an error with VRAM Optimizer (thanks Ichronosl)
+-removing .git files for now and for future releases for better trios compatibility (also thanks Ichronosol)
+
 v0.2.3
 SAVE COMPATIBLE
 -changed spawn rates of Mini-Kites in the market (wow they were low, woops)
