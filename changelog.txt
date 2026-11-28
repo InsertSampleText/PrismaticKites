@@ -1,3 +1,16 @@
+v0.2.3
+SAVE COMPATIBLE
+-changed spawn rates of Mini-Kites in the market (wow they were low, woops)
+-added variants and spawn weights for Mega-Kite and Mega-Kite (Freighter)
+-lowered prices of Mega-Kite and Freighter ver to 20,000
+-added civilian to Mega-Kite Freighter
+-lowered rarity rates of Super and Mega Kite lines (made them slightly more rarer)
+-increased supplies/month for Mega-Kite Freighter from 4 to 5
+-adjusted variant weights to actually make sense (i misread how they were used)
+-changed kite ground support hullmod to tier 1 and added tags
+-changed rarity values for kite hullmods to be rarer
+-changed Mega-Kite line speed values
+
 v0.2.2
 SAVE COMPATIBLE
 -adjusted stats for Mega Kite and Mega Kite Freighter
